@@ -48,17 +48,19 @@ function Slide() {
   };
 
   return (
-    <div id="default-carousel" className="" data-carousel="static">
-      <div className="overflow-hidden relative">
+    <div id="default-carousel" className="" data-carousel="slide">
+      <div className="overflow-hidden relative carousel slide carousel-fade" data-carousel="slide" data-bs-ride="carousel">
         <div
-          className="duration-700 ease-in-out inset-0 transition-all transform translate-x-0 z-20"
+          className="z-20 carousel-inner"
           data-carousel-item
-        >
-          <img
-            src={slideImages[currentIndex].path}
-            className="-top-60 block relative"
-            alt={slideImages[currentIndex].title}
-          />
+        > 
+          <div className="carousel-item active duration-700 ease-in-out">
+            <img
+              src={slideImages[currentIndex].path}
+              className="-top-40 block"
+              alt={slideImages[currentIndex].title}
+            />
+          </div>
           {components[currentIndex]}
           <div className="relative">
               <LeftPart />
@@ -121,7 +123,7 @@ function Slide() {
       <button
         type="button"
         onClick={movePrev}
-        className="flex absolute top-1/2 left-0 z-30 justify-center items-center px-4 cursor-pointer group focus:outline-none"
+        className="carousel-control-prev flex absolute top-1/2 left-0 z-30 justify-center items-center px-4 cursor-pointer group focus:outline-none"
         data-carousel-prev
       >
         <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-none dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -145,7 +147,7 @@ function Slide() {
       <button
         type="button"
         onClick={moveNext}
-        className="flex absolute top-1/2 right-0 z-30 justify-center items-center px-4 cursor-pointer group focus:outline-none"
+        className="carousel-control-next flex absolute top-1/2 right-0 z-30 justify-center items-center px-4 cursor-pointer group focus:outline-none"
         data-carousel-next
       >
         <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-none dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">

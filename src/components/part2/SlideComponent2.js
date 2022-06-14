@@ -7,7 +7,7 @@ function SlideComponent2() {
       <p className="text-md py-3">
       Tottenham Hotspur built one of the smartest, most connected stadiums in the world to make match day unforgettable for tens of thousands of fans.
       </p>
-      <button className="flex justify-center items-center w-60 py-3 outline-none outline-offset-0 border-2 border-green-800 hover:outline-2 hover:outline-green-800 rounded-md">
+      <button className="arrow-animation flex justify-center items-center w-60 py-3 outline-none outline-offset-0 border-2 border-green-800 hover:outline-2 hover:outline-green-800 rounded-md">
         Find out how&nbsp;&nbsp;
         <svg
           xmlns="http://www.w3.org/2000/svg"

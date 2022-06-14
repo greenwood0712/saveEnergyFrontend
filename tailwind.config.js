@@ -34,6 +34,10 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      backgroundImage: {
+        'virtual-tour': "url('/src/assets/image (12).jpg')",
+        'footer-image': "url('/src/assets/image (13).jpg')",
       }
     }
   },

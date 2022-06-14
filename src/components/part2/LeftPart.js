@@ -10,7 +10,7 @@ function LeftPart() {
           Our clients are accelerating digital transformation and
           fast-forwarding to outcomes.
         </p>
-        <button className="flex text-xl py-2 justify-center items-center text-green-700 font-semibold">
+        <a href="https://www.hpe.com/us/en/customer-case-studies.html" className="arrow-animation flex text-xl py-2 justify-start items-center text-green-700 font-semibold">
           See all Digital Game Changers&nbsp;&nbsp;
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,13 +26,13 @@ function LeftPart() {
               d="M17 8l4 4m0 0l-4 4m4-4H3"
             />
           </svg>
-        </button>
+        </a>
       </div>
       <br />
-      <h1 className="text-xl text-gray-400 font-bold px-5 border-l-8 border-purple-800">
+      <h1 className="text-xl text-gray-400 font-bold px-5 border-l-8 border-purple-800 cursor-pointer hover:text-white">
         Around HPE
       </h1>
-      <h1 className="text-xl text-gray-400 font-bold px-5 my-3 border-l-8 border-blue-500">
+      <h1 className="text-xl text-gray-400 font-bold px-5 my-3 border-l-8 border-blue-500 cursor-pointer hover:text-white">
         Latest Webinars
       </h1>
     </div>

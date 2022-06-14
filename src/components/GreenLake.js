@@ -2,7 +2,7 @@ import React from "react";
 
 function GreenLake() {
   return (
-    <div className="w-1/2">
+    <div className="md:w-1/2">
       <p className="header-text text-8xl font-extrabold">
         The cloud that comes to you
       </p>
@@ -10,7 +10,7 @@ function GreenLake() {
         The HPE GreenLake edge-to-cloud platform transforms IT into a service
         consumed on-demand.
       </p>
-      <button className="flex text-lg font-semibold w-80 justify-center items-center bg-green-700 rounded py-3 my-3 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700">
+      <a href="https://www.hpe.com/us/en/greenlake.html" className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 rounded py-3 my-3 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700">
         Learn about HPE GreenLake&nbsp;&nbsp;
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ function GreenLake() {
             d="M17 8l4 4m0 0l-4 4m4-4H3"
           />
         </svg>
-      </button>
+      </a>
     </div>
   );
 }

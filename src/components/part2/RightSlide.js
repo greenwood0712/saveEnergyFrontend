@@ -63,7 +63,7 @@ function RightSlide() {
           </button>
           <img
             src={images[currentIndex]}
-            className="block relative w-2/3"
+            className="block relative w-2/3 duration-700 ease-in-out inset-0 transition-all"
             alt={"..."}
           />
           <button

@@ -8,7 +8,7 @@ function Page2() {
         Frontier represents monumental performance in AI, research, and innovation that will solve calculations up to 10X faster than today’s top supercomputers.
       </p>
       <div className="flex">
-        <button className="flex text-lg font-semibold w-80 justify-center items-center bg-green-700 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700 rounded py-3">
+        <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700 rounded py-3">
           View the press release&nbsp;&nbsp;
           <svg
             xmlns="http://www.w3.org/2000/svg"

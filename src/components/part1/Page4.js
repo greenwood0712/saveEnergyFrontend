@@ -2,7 +2,7 @@ import React from 'react'
 
 function Page4() {
   return (
-    <div className="absolute text-white top-40 m-20">
+    <div className="md:absolute text-white top-40 m-20">
       <h1 className="text-5xl font-bold w-1/2">TWO NEW BREAKTHROUGHS FOR SCALING AI APPLICATIONS</h1>
       <p className="text-2xl py-5 w-1/2">
         Speed data-first modernization from edge to cloud and scale AI to industrial sized, global applications.

@@ -2,7 +2,7 @@ import React from "react";
 
 function SlideComponent1() {
   return (
-    <div className="absolute -bottom-20 left-60 text-black bg-gray-100 p-6 border-t-8 border-yellow-400 w-2/5">
+    <div className="md:absolute -bottom-20 left-60 text-black bg-gray-100 p-6 border-t-8 border-yellow-400 md:w-2/5 w-screen">
       <h1 className="text-3xl font-bold">HPE GreenLake will rock you</h1>
       <div className="text-md mt-3">
         Across industries around the world, our customers are transforming

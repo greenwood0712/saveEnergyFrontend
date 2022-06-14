@@ -2,7 +2,7 @@ import React from 'react'
 
 function SlideComponent3() {
   return (
-    <div className="absolute -bottom-20 left-60 text-black bg-gray-100 p-6 border-t-8 border-yellow-400 w-2/5">
+    <div className="md:absolute -bottom-20 left-60 text-black bg-gray-100 p-6 border-t-8 border-yellow-400 md:w-2/5 w-screen">
       <h1 className="text-3xl font-bold">Boutique banking anytime, anywhere</h1>
       <p className="text-md py-3">
       See how Blueshore Financial right-sizes its private cloud for agility and ROI.

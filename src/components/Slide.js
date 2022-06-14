@@ -51,7 +51,7 @@ function Slide() {
     <div id="default-carousel" className="" data-carousel="slide">
       <div className="overflow-hidden relative carousel slide carousel-fade" data-carousel="slide" data-bs-ride="carousel">
         <div
-          className="z-20 carousel-inner"
+          className="z-20 carousel-inner inline-block"
           data-carousel-item
         > 
           <div className="carousel-item active duration-700 ease-in-out">

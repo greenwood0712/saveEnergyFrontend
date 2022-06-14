@@ -14,7 +14,7 @@ function Card2() {
         />
       </div>
       <h1 className="text-xl font-bold h-20 mt-8">HPE COMPUTE SYSTEMS</h1>
-      <p className="text-md card-height">
+      <p className="text-md md:card-height">
         Accelerate your IT modernization with intelligent, workload-optimized
         mainstream compute systems, available as a service.
       </p>

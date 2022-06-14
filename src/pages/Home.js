@@ -14,13 +14,13 @@ import VirtualTour from "../components/VirtualTour";
 function Home() {
   return (
     <Layout>
-      <div className="bg-gradient-to-t from-black to-black background-image">
+      <div className="bg-gradient-to-t from-black to-gray-900 background-image">
         <Slide />
       </div>
       <div>
-        <div className="md:flex justify-between bg-blue-700 h-auto text-white p-20">
+        <div className="md:flex md:justify-between bg-blue-700 h-auto text-white p-5 sm:p-20">
           <GreenLake />
-          <img src={diagram} className="w-1/2 h-1/2" alt="diagrams" />
+          <img src={diagram} className="md:w-1/2 md:h-1/2" alt="diagrams" />
         </div>
         <div className="block justify-start px-20 -mx-15 relative card-group md:flex">
           <Card1 />

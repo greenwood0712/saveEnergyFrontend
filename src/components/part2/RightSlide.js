@@ -29,10 +29,10 @@ function RightSlide() {
 
   return (
     <div
-      className="absolute text-white bottom-20 -right-40 m-20 w-3/4"
+      className="md:absolute text-white md:bottom-20 md:-right-40 md:m-20 md:w-3/4"
       data-carousel="static"
     >
-      <div className="overflow-hidden relative">
+      <div className="overflow-hidden relative w-screen md:w-auto">
         <div
           className="flex justify-center items-center duration-700 ease-in-out inset-0 transition-all transform translate-x-0"
           data-carousel-item
@@ -93,7 +93,7 @@ function RightSlide() {
         </div>
       </div>
       {components[currentIndex]}
-      <div className="flex absolute -bottom-40 left-1/2 space-x-3 -translate-x-1/2">
+      <div className="image-indicator flex absolute left-1/2 space-x-3 -translate-x-1/2">
         <button
           type="button"
           className={`w-3 h-3 rounded-full hover:bg-white dark:hover:bg-gray-800 ${currentIndex === 0 ? 'bg-white dark:bg-gray-800' : 'bg-white/50 dark:bg-gray-800/50'}`}

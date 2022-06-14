@@ -2,7 +2,7 @@ import React from "react";
 
 function Page1() {
   return (
-    <div className="absolute text-white top-40 m-20">
+    <div className="sm:absolute text-white sm:top-40 m-20 overflow-hidden">
       <h1 className="text-5xl font-bold">HPE Discover 2022</h1>
       <p className="text-2xl py-5">
         THE EDGE-TO-CLOUD CONFERENCE LAS VEGAS, JUNE 28–30

@@ -14,7 +14,7 @@ function Card4() {
         />
       </div>
       <h1 className="text-xl font-bold h-20 mt-8">HPE NIMBLE STORAGE</h1>
-      <p className="text-md card-height">
+      <p className="text-md md:card-height">
         Unlock the full potential of hybrid cloud with intelligent,
         self-managing storage built to help you unlock the full potential of
         your data.

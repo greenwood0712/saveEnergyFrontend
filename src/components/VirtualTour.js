@@ -36,7 +36,7 @@ function VirtualTour() {
         </div>
       </div>
       <div className="md:w-1/2">
-        <img src={image} alt="virtual tour" className="h-screen w-screen md:h-full w-full" />
+        <img src={image} alt="virtual tour" className="w-screen md:h-full w-full" />
       </div>
     </div>
   );

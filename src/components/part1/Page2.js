@@ -2,7 +2,7 @@ import React from 'react'
 
 function Page2() {
   return (
-    <div className="absolute text-white top-40 m-20">
+    <div className="md:absolute text-white top-40 m-20">
       <h1 className="text-5xl font-bold w-1/2">ORNL FRONTIER SUPERCOMPUTER IS THE FASTEST SYSTEM ON THE TOP500</h1>
       <p className="text-2xl py-5 w-1/2">
         Frontier represents monumental performance in AI, research, and innovation that will solve calculations up to 10X faster than today’s top supercomputers.

@@ -10,7 +10,7 @@ function GreenLake() {
         The HPE GreenLake edge-to-cloud platform transforms IT into a service
         consumed on-demand.
       </p>
-      <a href="https://www.hpe.com/us/en/greenlake.html" className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 rounded py-3 my-3 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700">
+      <a href="https://www.hpe.com/us/en/greenlake.html" className="arrow-animation flex text-lg font-semibold md:w-80 justify-center items-center bg-green-700 rounded py-3 my-3 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700">
         Learn about HPE GreenLake&nbsp;&nbsp;
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Page5() {
   return (
-    <div className="absolute text-white top-40 m-20">
+    <div className="md:absolute text-white top-40 m-20">
       <h1 className="text-5xl font-bold w-1/2">THE DATA ISSUE</h1>
       <p className="text-2xl py-5 w-1/2">
       Dive in to the latest issue of The Doppler for expert perspectives on finding success as a data-first enterprise.

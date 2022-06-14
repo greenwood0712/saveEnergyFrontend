@@ -1,5 +1,5 @@
 .background-image {
-  height: 1450px;
+  height: auto;
 }
 
 .header-text {
@@ -29,4 +29,8 @@
 
 .arrow-animation:hover svg {
   transform: translateX(5px);
+}
+
+.image-indicator {
+  bottom: -110px;
 }

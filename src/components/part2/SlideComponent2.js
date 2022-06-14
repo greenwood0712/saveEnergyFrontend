@@ -2,7 +2,7 @@ import React from "react";
 
 function SlideComponent2() {
   return (
-    <div className="absolute -bottom-20 left-60 text-black bg-gray-100 p-6 border-t-8 border-yellow-400 w-2/5">
+    <div className="md:absolute -bottom-20 left-60 text-black bg-gray-100 p-6 border-t-8 border-yellow-400 md:w-2/5 w-screen">
       <h1 className="text-3xl font-bold">A smart stadium: a place for passion</h1>
       <p className="text-md py-3">
       Tottenham Hotspur built one of the smartest, most connected stadiums in the world to make match day unforgettable for tens of thousands of fans.

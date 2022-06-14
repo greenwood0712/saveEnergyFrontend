@@ -2,9 +2,9 @@ import React from "react";
 
 function LeftPart() {
   return (
-    <div className="absolute text-white bottom-20 m-20">
-      <h1 className="text-6xl font-bold w-1/2 py-5">LATEST FROM HPE</h1>
-      <div className="block px-5 py-1 w-1/2 border-l-8 border-yellow-400">
+    <div className="md:absolute text-white md:bottom-20 md:m-20 w-screen md:w-1/2">
+      <h1 className="text-6xl font-bold md:w-1/2 py-5">LATEST FROM HPE</h1>
+      <div className="block px-5 py-1 md:w-1/2 border-l-8 border-yellow-400">
         <h1 className="text-2xl font-bold">Digital Game Changers</h1>
         <p className="text-xl py-1">
           Our clients are accelerating digital transformation and

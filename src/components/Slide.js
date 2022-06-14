@@ -57,7 +57,7 @@ function Slide() {
           <div className="carousel-item active duration-700 ease-in-out">
             <img
               src={slideImages[currentIndex].path}
-              className="-top-40 block"
+              className="relative -top-40 block"
               alt={slideImages[currentIndex].title}
             />
           </div>

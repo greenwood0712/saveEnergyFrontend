@@ -34,3 +34,15 @@
 .image-indicator {
   bottom: -110px;
 }
+
+.footer-menu a {
+  margin: 0 5px;
+}
+
+.footer-menu-group a:hover {
+  text-decoration: underline;
+}
+
+.footer-menu a:hover{
+  text-decoration: underline;
+}

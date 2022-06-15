@@ -12,6 +12,10 @@ import logo from "../assets/gradient.PNG";
 function Header() {
   const [state, setState] = useState(false);
   const [search, setSearch] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+  const [navbar2, setNavbar2] = useState(false);
+  const [more, setMore] = useState(false);
+
   const navigations = [
     { title: "HPE GreenLake", path: "#" },
     { title: "Products", path: "https://www.hpe.com/us/en/products.html" },
@@ -27,7 +31,7 @@ function Header() {
           <input
             type="search"
             placeholder="Search hpe.com"
-            className="px-20 w-full border-0 search-input"
+            className="md:px-20 w-full border-0 search-input"
             name="search"
           />
           <button>
@@ -51,20 +55,20 @@ function Header() {
               setSearch(false);
               document.body.style.overflow = "auto";
             }}
-            className="flex ml-10 px-5 border-l-2 border-gray-400"
+            className="flex items-center justify-center ml-5 md:ml-10 px-5 border-l-2 border-gray-400"
           >
             <XIcon
-              className="block h-8 w-8 text-green-700"
+              className="block w-6 h-6 md:h-8 md:w-8 text-green-700"
               aria-hidden="true"
             />
-            <h1 className="pl-5 text-2xl">Close</h1>
+            <h1 className="md:pl-5 text-xl md:text-2xl">Close</h1>
           </button>
         </nav>
       )}
       {!search && (
         <nav className="navbar navbar-expand-lg w-full fixed border-0 bg-black text-white text-xs font-bold pt-4 z-50">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-            <div className="flex items-center justify-between py-3">
+            <div className="flex items-center justify-between py-3 mb-2">
               <a className="flex" href="/">
                 <img
                   src={logo}
@@ -195,17 +199,17 @@ function Header() {
                     if (idx === 0) {
                       return <li
                         key={idx}
-                        className="nav-item dropdown static pt-3 pb-5 px-3 outline-4 outline-green-700 focus:border-b-4 focus:border-green-500 hover:border-b-4 hover:border-green-500"
+                        className="nav-item dropdown relative pt-3 pb-5 px-3 border-b-4 border-black focus:border-green-500 hover:border-green-500"
                       >
-                        <a href={item.path} className="navlink" aria-expanded="false">{item.title}</a>
-                      </li>;
+                        <button className="navlink" onClick={() => setNavbar(true)}>{item.title}</button>
+                      </li>
                     } else {
                       return <li
                         key={idx}
-                        className="nav-item pt-3 pb-5 px-3 outline-4 outline-green-700 hover:border-b-4 hover:border-green-500"
+                        className="nav-item pt-3 pb-5 px-3 border-b-4 border-black hover:border-green-500"
                       >
-                        <a href={item.path} className="Nav-link">{item.title}</a>
-                      </li>;
+                        <a href={item.path} className="nav-link">{item.title}</a>
+                      </li>
                     }
                   })}
                 </ul>

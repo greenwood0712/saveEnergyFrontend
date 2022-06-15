@@ -4,7 +4,7 @@ import image from "../../assets/EBC-homepage.jpg"
 function VirtualTour() {
   return (
     <div className="md:flex justify-between py-10">
-      <div className="md:w-1/2 mt-20">
+      <div className="md:w-1/2 mt-5 md:mt-20">
         <h1 className="text-4xl font-semibold">
           EXPLORE HPE'S NEW VIRTUAL CUSTOMER INNOVATION CENTER
         </h1>
@@ -15,7 +15,7 @@ function VirtualTour() {
         <div className="pt-10">
           <a
             href="https://www.hpe.com/us/en/greenlake.html"
-            className="arrow-animation flex justify-center items-center md:w-1/2 font-bold mt-5 py-3 outline-none outline-offset-0 border-2 border-green-800 hover:outline-2 hover:outline-green-800 rounded-md"
+            className="arrow-animation flex justify-center items-center md:w-1/2 font-bold mt-2 md:mt-5 py-3 outline-none outline-offset-0 border-2 border-green-800 hover:outline-2 hover:outline-green-800 rounded-md"
           >
             Take the virtual tour&nbsp;&nbsp;
             <svg

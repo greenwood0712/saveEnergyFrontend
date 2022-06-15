@@ -3,11 +3,11 @@ import React from 'react'
 function Page5() {
   return (
     <div className="md:absolute text-white top-40 m-10 md:m-20">
-      <h1 className="text-5xl font-bold w-1/2">THE DATA ISSUE</h1>
-      <p className="text-2xl py-5 w-1/2">
+      <h1 className="text-5xl font-bold md:w-1/2">THE DATA ISSUE</h1>
+      <p className="text-2xl py-5 md:w-1/2">
       Dive in to the latest issue of The Doppler for expert perspectives on finding success as a data-first enterprise.
       </p>
-      <div className="flex">
+      <div className="md:flex">
         <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700 rounded py-3">
           Read the report&nbsp;&nbsp;
           <svg

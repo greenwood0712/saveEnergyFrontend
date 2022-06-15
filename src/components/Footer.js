@@ -83,8 +83,8 @@ function Footer() {
 
         <div className="md:w-1/2 md:flex justify-around">
           <div className="block md:w-1/2">
-            <div className="flex justify-start items-center">
-              <a href='https://www.hpe.com/us/en/buy-parts-products.html' className="bg-green-800 hover:bg-green-700 w-1/2 m-1 h-40 cursor-pointer flex flex-col justify-center items-center">
+            <div className="md:flex justify-start items-center">
+              <a href='https://www.hpe.com/us/en/buy-parts-products.html' className="bg-green-800 hover:bg-green-700 md:w-1/2 m-1 h-20 md:h-40 cursor-pointer flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -92,7 +92,7 @@ function Footer() {
                 </div>
                 <p className="text-center">How to Buy</p>
               </a>
-              <a href='https://support.hpe.com/hpesc/public/home' className="bg-green-800 hover:bg-green-700 w-1/2 m-1 h-40 cursor-pointer flex flex-col justify-center items-center">
+              <a href='https://support.hpe.com/hpesc/public/home' className="bg-green-800 hover:bg-green-700 md:w-1/2 m-1 h-20 md:h-40 cursor-pointer flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
@@ -101,8 +101,8 @@ function Footer() {
                 <p className="text-center">Product Support</p>
               </a>
             </div>
-            <div className="flex justify-center items-center">
-              <div className="bg-green-800 hover:bg-green-700 w-1/2 m-1 h-40 cursor-pointer flex flex-col justify-center items-center">
+            <div className="md:flex justify-center items-center">
+              <div className="bg-green-800 hover:bg-green-700 md:w-1/2 m-1 h-20 md:h-40 cursor-pointer flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -110,7 +110,7 @@ function Footer() {
                 </div>
                 <p className="text-center">Email Sales</p>
               </div>
-              <div className="bg-green-800 hover:bg-green-700 w-1/2 m-1 h-40 cursor-pointer flex flex-col justify-center items-center">
+              <div className="bg-green-800 hover:bg-green-700 md:w-1/2 m-1 h-20 md:h-40 cursor-pointer flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
@@ -120,7 +120,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="md:flex hidden justify-center items-center">
             <img
               src={image1}
               className="md:float-right"

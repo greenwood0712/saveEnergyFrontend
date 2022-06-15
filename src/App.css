@@ -68,3 +68,9 @@
 .part2-image {
   height: 427px;
 }
+
+@media (max-width: 767px) {
+  .part2-image {
+    height: auto;
+  }
+}

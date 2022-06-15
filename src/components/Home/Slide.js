@@ -58,14 +58,14 @@ function Slide() {
           <div id="image-slide">
             <img
               src={slideImages[currentIndex].path}
-              className="relative -top-40 block image-slide"
+              className="relative md:-top-40 block image-slide w-auto"
               alt={slideImages[currentIndex].title}
             />
           </div>
           {components[currentIndex]}
           <div className="md:relative md:absolute md:bottom-96">
-              <LeftPart state={state} setState={setState} />
-              <RightSlide state={state} />
+            <LeftPart state={state} setState={setState} />
+            <RightSlide state={state} />
           </div>
         </div>
       </div>

@@ -14,6 +14,7 @@ import RightSlide from "./part2/RightSlide";
 
 function Slide() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [state, setState] = useState(0)
 
   const slideImages = [
     { title: "HPE Discover 2022", path: image1 },
@@ -49,12 +50,12 @@ function Slide() {
 
   return (
     <div id="default-carousel" className="" data-carousel="slide">
-      <div className="overflow-hidden relative carousel slide carousel-fade" data-carousel="slide" data-bs-ride="carousel">
+      <div className="overflow-hidden relative" data-carousel="slide" data-bs-ride="carousel">
         <div
-          className="z-20 carousel-inner inline-block"
+          className="z-20 inline-block"
           data-carousel-item
         > 
-          <div className="carousel-item active duration-700 ease-in-out">
+          <div className="image-slide">
             <img
               src={slideImages[currentIndex].path}
               className="relative -top-40 block"
@@ -62,13 +63,13 @@ function Slide() {
             />
           </div>
           {components[currentIndex]}
-          <div className="relative">
-              <LeftPart />
-              <RightSlide />
+          <div className="md:relative md:absolute md:bottom-96">
+              <LeftPart state={state} setState={setState} />
+              <RightSlide state={state} />
           </div>
         </div>
       </div>
-      <div className="flex absolute mb-20 bottom-10 left-1/2 z-30 space-x-3 -translate-x-1/2">
+      <div className="flex md:absolute mb-20 bottom-10 left-1/2 z-30 space-x-3 -translate-x-1/2">
         <button
           type="button"
           className={`w-3 h-3 rounded-full hover:bg-white dark:hover:bg-gray-800 ${currentIndex === 0 ? 'bg-white dark:bg-gray-800' : 'bg-white/50 dark:bg-gray-800/50'}`}

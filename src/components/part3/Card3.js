@@ -14,7 +14,7 @@ function Card3() {
         />
       </div>
       <h1 className="text-xl font-bold h-20 mt-8">ARUBA NETWORKING</h1>
-      <p className="text-md md:card-height">
+      <p className="text-md card-height">
         Simplify network operations and management with cloud-based Aruba Central.
       </p>
       <a

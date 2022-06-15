@@ -10,7 +10,7 @@ function SlideComponent1() {
         they’re accelerating outcomes with agility, modernization, and hybrid
         cloud.
       </div>
-      <button className="arrow-animation flex justify-center items-center w-60 mt-5 py-3 outline-none outline-offset-0 border-2 border-green-800 hover:outline-2 hover:outline-green-800 rounded-md">
+      <a href='/' className="arrow-animation flex justify-center items-center font-bold w-60 mt-5 py-3 outline-none outline-offset-0 border-2 border-green-800 hover:outline-2 hover:outline-green-800 rounded-md">
           Watch the video&nbsp;&nbsp;
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ function SlideComponent1() {
             d="M17 8l4 4m0 0l-4 4m4-4H3"
           />
         </svg>
-      </button>
+      </a>
     </div>
   );
 }

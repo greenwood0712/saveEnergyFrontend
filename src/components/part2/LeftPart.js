@@ -1,40 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
+import LeftPart1 from "./left-part/LeftPart1";
+import LeftPart2 from "./left-part/LeftPart2";
+import LeftPart3 from "./left-part/LeftPart3";
 
-function LeftPart() {
+function LeftPart({ state, setState }) {
+  
   return (
-    <div className="md:absolute text-white md:bottom-20 md:m-20 w-screen md:w-1/2">
+    <div className="flex flex-col md:absolute text-white md:-top-80 md:m-20 w-screen md:w-1/2">
       <h1 className="text-6xl font-bold md:w-1/2 py-5">LATEST FROM HPE</h1>
-      <div className="block px-5 py-1 md:w-1/2 border-l-8 border-yellow-400">
-        <h1 className="text-2xl font-bold">Digital Game Changers</h1>
-        <p className="text-xl py-1">
-          Our clients are accelerating digital transformation and
-          fast-forwarding to outcomes.
-        </p>
-        <a href="https://www.hpe.com/us/en/customer-case-studies.html" className="arrow-animation flex text-xl py-2 justify-start items-center text-green-700 font-semibold">
-          See all Digital Game Changers&nbsp;&nbsp;
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M17 8l4 4m0 0l-4 4m4-4H3"
-            />
-          </svg>
-        </a>
-      </div>
-      <br />
-      <h1 className="text-xl text-gray-400 font-bold px-5 border-l-8 border-purple-800 cursor-pointer hover:text-white">
-        Around HPE
-      </h1>
-      <h1 className="text-xl text-gray-400 font-bold px-5 my-3 border-l-8 border-blue-500 cursor-pointer hover:text-white">
-        Latest Webinars
-      </h1>
+      {state === 0 ? 
+        <LeftPart1 className='image-slide' /> : 
+        <button onClick={() => setState(0)} className="text-xl text-gray-400 font-bold text-left px-5 my-3 border-l-8 border-yellow-400 cursor-pointer hover:text-white">
+          Digital Game Changers
+        </button>
+      }
+      {state === 1 ? 
+        <LeftPart2 className="image-slide" /> : 
+        <button onClick={() => {setState(1)}} className="text-xl text-gray-400 font-bold px-5 my-3 text-left border-l-8 border-purple-800 cursor-pointer hover:text-white">
+          Around HPE
+        </button>
+      }
+      {state ===2 ? 
+        <LeftPart3 className="image-slide" /> :
+        <button onClick={() => {setState(2)}}className="text-xl text-gray-400 font-bold text-left px-5 my-3 border-l-8 border-blue-500 cursor-pointer hover:text-white">
+          Latest Webinars
+        </button>
+      }
     </div>
   );
 }

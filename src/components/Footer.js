@@ -72,16 +72,16 @@ function Footer() {
 
   return (
     <div className="bg-footer-image text-white relative">
-      <div className="md:flex justify-between items-center py-10 px-20">
-        <div className="my-5 mr-10 md:w-1/2">
+      <div className="md:flex justify-between items-center py-10 md:px-20">
+        <div className="my-5 md:mr-10 md:w-1/2">
           <h1 className="text-4xl font-black text-center">How can we help?</h1>
-          <div className="mt-10 mx-10 md:flex justify-around items-center">
-            <input type='search' placeholder="Help me find something" className="w-full md:w-2/3" name='search' />
+          <div className="mt-10 md:mx-10 flex flex-col justify-center md:flex md:flex-row md:justify-around items-center">
+            <input type='search' placeholder="Help me find something" className="w-2/3 md:w-2/3" name='search' />
             <input type="submit" value="Search hpe.com" className="bg-green-800 py-3 px-10 rounded-md hover:bg-green-700 ml-2" />
           </div>
         </div>
 
-        <div className="md:w-1/2 flex justify-around">
+        <div className="md:w-1/2 md:flex justify-around">
           <div className="block md:w-1/2">
             <div className="flex justify-start items-center">
               <a href='https://www.hpe.com/us/en/buy-parts-products.html' className="bg-green-800 hover:bg-green-700 w-1/2 m-1 h-40 cursor-pointer flex flex-col justify-center items-center">
@@ -120,10 +120,10 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="flex justify-center items-center">
             <img
               src={image1}
-              className="float-right"
+              className="md:float-right"
               alt="..."
             />
           </div>
@@ -133,8 +133,8 @@ function Footer() {
       <div className="block justify-between px-20 mt-10 relative text-xs md:flex footer-menu-group">
         <div className="mx-4 w-full">
           <h1 className="font-bold">COMPANY</h1>
-          {companies.map(company => {
-            return <div className='py-1'>
+          {companies.map((company, idx) => {
+            return <div key={idx} className='py-1'>
               <a href={company.path} alt={company.title}>{company.title}</a>
             </div>
           })}
@@ -143,24 +143,24 @@ function Footer() {
         <div className="mx-4 w-full">
           <div>
             <h1 className="font-bold">LEARN ABOUT</h1>
-            {learn_abouts.map(learn => {
-              return <div className='py-1'>
+            {learn_abouts.map((learn, idx) => {
+              return <div key={idx} className='py-1'>
                 <a href={learn.path} alt={learn.title}>{learn.title}</a>
               </div>
             })}
           </div>
           <div className='mt-5'>
             <h1 className="font-bold">NEWS AND EVENTS</h1>
-            {news_events.map(news => {
-              return <div className='py-1'>
+            {news_events.map((news, idx) => {
+              return <div key={idx} className='py-1'>
                 <a href={news.path} alt={news.title}>{news.title}</a>
               </div>
             })}
           </div>
           <div className='mt-5'>
             <h1 className="font-bold">PARTNERS</h1>
-            {partners.map(partner => {
-              return <div className='py-1'>
+            {partners.map((partner, idx) => {
+              return <div key={idx} className='py-1'>
                 <a href={partner.path} alt={partner.title}>{partner.title}</a>
               </div>
             })}
@@ -170,16 +170,16 @@ function Footer() {
         <div className="mx-4 w-full">
           <div>
             <h1 className="font-bold">SUPPORT</h1>
-            {supports.map(support => {
-              return <div className='py-1'>
+            {supports.map((support, idx) => {
+              return <div key={idx} className='py-1'>
                 <a href={support.path} alt={support.title}>{support.title}</a>
               </div>
             })}
           </div>
           <div className='mt-5'>
             <h1 className="font-bold">COMMUNITIES</h1>
-            {communities.map(community => {
-              return <div className='py-1'>
+            {communities.map((community, idx) => {
+              return <div key={idx} className='py-1'>
                 <a href={community.path} alt={community.title}>{community.title}</a>
               </div>
             })}
@@ -189,8 +189,8 @@ function Footer() {
         <div className="mx-4 w-full">
           <div>
             <h1 className="font-bold">CUSTOMER RESOURCES</h1>
-            {customer_resources.map(customer => {
-              return <div className='py-1'>
+            {customer_resources.map((customer, idx) => {
+              return <div key={idx} className='py-1'>
                 <a href={customer.path} alt={customer.title}>{customer.title}</a>
               </div>
             })}
@@ -221,7 +221,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-between text-xs mt-20 mx-20">
+      <div className="md:flex md:justify-between md:flex-row flex flex-col justify-center items-center text-xs mt-20 md:mx-20">
         <p>© Copyright 2022 Hewlett Packard Enterprise Development LP</p>
         <div className="flex justify-between footer-menu">
             <a href='https://www.hpe.com/us/en/legal/privacy.html'>Privacy</a>

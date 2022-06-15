@@ -22,7 +22,7 @@ function Home() {
           <GreenLake />
           <img src={diagram} className="md:w-1/2 md:h-1/2" alt="diagrams" />
         </div>
-        <div className="block justify-start px-20 -mx-15 relative card-group md:flex">
+        <div className="block justify-start px-5 md:px-20 -mx-15 relative card-group md:flex">
           <Card1 />
           <Card2 />
           <Card3 />

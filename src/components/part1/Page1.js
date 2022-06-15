@@ -2,14 +2,14 @@ import React from "react";
 
 function Page1() {
   return (
-    <div className="sm:absolute text-white sm:top-40 m-20 overflow-hidden">
+    <div className="sm:absolute text-white sm:top-40 m-10 md:m-20 overflow-hidden">
       <h1 className="text-5xl font-bold">HPE Discover 2022</h1>
       <p className="text-2xl py-5">
         THE EDGE-TO-CLOUD CONFERENCE LAS VEGAS, JUNE 28–30
         <br />
         The best of edge, cloud, and everything in between–all in one place.
       </p>
-      <div className="flex">
+      <div className="md:flex">
         <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700 rounded py-3">
           Register now&nbsp;&nbsp;
           <svg
@@ -27,7 +27,7 @@ function Page1() {
             />
           </svg>
         </button>
-        <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700 rounded py-3 mx-5">
+        <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700 rounded py-3 md:mx-5">
           Get ready for HPE Discover&nbsp;&nbsp;
           <svg
             xmlns="http://www.w3.org/2000/svg"

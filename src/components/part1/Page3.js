@@ -2,7 +2,7 @@ import React from 'react'
 
 function Page3() {
   return (
-    <div className="md:absolute text-white top-40 m-20">
+    <div className="md:absolute text-white top-40 m-10 md:m-20">
       <h1 className="text-5xl font-bold w-1/2">HPE TECH ACADEMIES</h1>
       <p className="text-2xl py-5 w-1/2">
       Brush up on the basics or head for the leading edge with HPE Discover Tech Academies’ full program of training and certification opportunities.

@@ -13,7 +13,7 @@
 }
 
 .card-height {
-  height: 96px
+  height: 96px;
 }
 
 .orange-color {
@@ -45,4 +45,26 @@
 
 .footer-menu a:hover{
   text-decoration: underline;
+}
+
+.search-input {
+  animation: moved 1s; 
+}
+
+@keyframes moved {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.image-slide {
+  animation: image-slide 2s;
+}
+
+@keyframes image-slide {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.part2-image {
+  height: 427px;
 }

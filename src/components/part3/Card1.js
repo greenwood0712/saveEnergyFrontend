@@ -14,7 +14,7 @@ function Card1() {
         />
       </div>
       <h1 className="text-xl font-bold h-20 mt-8">HPE GREENLAKE CLOUD SERVICES</h1>
-      <p className="text-md md:card-height">
+      <p className="text-md card-height">
         Get the cloud experience on-prem, and always have capacity when you need
         it.
       </p>

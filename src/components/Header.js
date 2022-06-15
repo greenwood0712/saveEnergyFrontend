@@ -9,7 +9,7 @@ import {
 } from "@heroicons/react/outline";
 import logo from "../assets/gradient.PNG";
 
-function Header() {
+function Header({ headerPosition }) {
   const [state, setState] = useState(false);
   const [search, setSearch] = useState(false);
   const [navbar, setNavbar] = useState(false);
@@ -27,7 +27,7 @@ function Header() {
   return (
     <>
       {search && (
-        <nav className="search-input w-full fixed border-0 bg-white flex justify-start items-center text-2xl text-black py-4 z-50">
+        <nav className={`search-input w-full ${headerPosition ? 'fixed' : 'relative'} border-0 bg-white flex justify-start items-center text-2xl text-black py-4 z-50`}>
           <input
             type="search"
             placeholder="Search hpe.com"
@@ -66,7 +66,7 @@ function Header() {
         </nav>
       )}
       {!search && (
-        <nav className="navbar navbar-expand-lg w-full fixed border-0 bg-black text-white text-xs font-bold pt-4 z-50">
+        <nav className={`navbar navbar-expand-lg w-full ${headerPosition ? 'fixed' : 'relative'} border-0 bg-black text-white text-xs font-bold pt-4 z-50`}>
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
             <div className="flex items-center justify-between py-3 mb-2">
               <a className="flex" href="/">
@@ -193,6 +193,7 @@ function Header() {
                   </li>
                 </ul>
               </div>
+              
               <div className="navbar-collapse collapse flex-1">
                 <ul className="navbar-nav justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
                   {navigations.map((item, idx) => {

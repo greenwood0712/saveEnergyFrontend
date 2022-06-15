@@ -80,7 +80,7 @@ function Card3() {
         </a>
       </div>
       <a
-        href="https://www.hpe.com/us/en/networking.html"
+        href="/network"
         className="flex justify-start items-center my-5 py-4 border-t-2 border-gray-300 cursor-pointer"
       >
         <img src={logo} alt="services" className="w-8 h-8" />

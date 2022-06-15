@@ -74,3 +74,8 @@
     height: auto;
   }
 }
+
+.text-color-transparent {
+  /* color: transparent; */
+  /* background-color: blue; */
+}

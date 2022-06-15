@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     // './pages/**/*.{html,js}',
-    "./src/**/*.{js,jsx,ts,tsx}"
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     screens: {
@@ -38,6 +39,7 @@ module.exports = {
       backgroundImage: {
         'virtual-tour': "url('/src/assets/image (12).jpg')",
         'footer-image': "url('/src/assets/image (13).jpg')",
+        'countdown' : "url('/src/assets/network/image (7).jpg')"
       }
     }
   },
@@ -46,5 +48,6 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
     require('tailwindcss-children'),
+    require('flowbite/plugin'),
   ],
 }

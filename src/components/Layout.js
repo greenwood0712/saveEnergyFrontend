@@ -3,10 +3,10 @@ import Footer from './Footer'
 import Header from './Header'
 
 
-function Layout({ children }) {
+function Layout({ children, status }) {
   return (
     <Fragment>
-      <Header />
+      <Header headerPosition={status} />
       {children}
       <Footer />
     </Fragment>

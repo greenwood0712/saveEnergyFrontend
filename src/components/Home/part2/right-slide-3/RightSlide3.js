@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import image1 from "../../../assets/image (24).jpg";
-import image2 from "../../../assets/image (27).jpg";
-import image3 from "../../../assets/image (28).jpg";
+import image1 from "../../../../assets/image (24).jpg";
+import image2 from "../../../../assets/image (27).jpg";
+import image3 from "../../../../assets/image (28).jpg";
 import SlideComponent1 from "./SlideComponent1";
 import SlideComponent2 from "./SlideComponent2";
 import SlideComponent3 from "./SlideComponent3";
@@ -33,7 +33,7 @@ function RightSlide3() {
 
   return (
     <div
-      className="md:absolute text-white md:-top-80 md:-right-40 md:m-20 md:w-3/4"
+      className="md:absolute text-white md:-top-80 md:-right-40 md:m-20 md:w-3/4 image-slide"
       data-carousel="static"
     >
       <div className="overflow-hidden relative w-screen md:w-auto">

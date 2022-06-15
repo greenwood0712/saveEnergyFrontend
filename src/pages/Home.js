@@ -1,15 +1,14 @@
 import React from "react";
-import GreenLake from "../components/GreenLake";
+import GreenLake from "../components/Home/GreenLake";
 import Layout from "../components/Layout";
-import Slide from "../components/Slide";
+import Slide from "../components/Home/Slide";
+import Card1 from "../components/Home/part3/Card1";
+import Card2 from "../components/Home/part3/Card2";
+import Card3 from "../components/Home/part3/Card3";
+import Card4 from "../components/Home/part3/Card4";
+import VirtualTour from "../components/Home/VirtualTour";
 
 import diagram from "../assets/diagrams_v2.png";
-
-import Card1 from "../components/part3/Card1";
-import Card2 from "../components/part3/Card2";
-import Card3 from "../components/part3/Card3";
-import Card4 from "../components/part3/Card4";
-import VirtualTour from "../components/VirtualTour";
 
 function Home() {
   return (

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import image1 from "../assets/image.jpg";
-import image2 from "../assets/image (1).jpg";
-import image3 from "../assets/image (2).jpg";
-import image4 from "../assets/image (3).jpg";
-import image5 from "../assets/image (4).jpg";
+import image1 from "../../assets/image.jpg";
+import image2 from "../../assets/image (1).jpg";
+import image3 from "../../assets/image (2).jpg";
+import image4 from "../../assets/image (3).jpg";
+import image5 from "../../assets/image (4).jpg";
 import Page1 from "./part1/Page1";
 import Page2 from "./part1/Page2";
 import Page3 from "./part1/Page3";
@@ -47,18 +47,18 @@ function Slide() {
       setCurrentIndex(0);
     }
   };
-
+  
   return (
-    <div id="default-carousel" className="" data-carousel="slide">
-      <div className="overflow-hidden relative" data-carousel="slide" data-bs-ride="carousel">
+    <div id="default-carousel" className="">
+      <div className="overflow-hidden relative">
         <div
           className="z-20 inline-block"
           data-carousel-item
         > 
-          <div className="image-slide">
+          <div id="image-slide">
             <img
               src={slideImages[currentIndex].path}
-              className="relative -top-40 block"
+              className="relative -top-40 block image-slide"
               alt={slideImages[currentIndex].title}
             />
           </div>

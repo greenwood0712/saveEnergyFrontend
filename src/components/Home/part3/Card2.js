@@ -1,6 +1,6 @@
 import React from "react";
-import image from "../../assets/image (9).jpg";
-import logo from "../../assets/server.PNG";
+import image from "../../../assets/image (9).jpg";
+import logo from "../../../assets/server.PNG";
 
 function Card2() {
   return (

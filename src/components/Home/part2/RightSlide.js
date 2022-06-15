@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import RightSlide1 from "./right-slide-1/RightSlide1";
 import RightSlide2 from "./right-slide-2/RightSlide2";
 import RightSlide3 from "./right-slide-3/RightSlide3";

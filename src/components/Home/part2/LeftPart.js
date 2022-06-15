@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import LeftPart1 from "./left-part/LeftPart1";
 import LeftPart2 from "./left-part/LeftPart2";
 import LeftPart3 from "./left-part/LeftPart3";

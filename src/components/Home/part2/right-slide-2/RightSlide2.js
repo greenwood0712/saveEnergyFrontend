@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import image1 from "../../../assets/image (23).jpg";
-import image2 from "../../../assets/image (25).jpg";
-import image3 from "../../../assets/image (26).jpg";
-import image4 from "../../../assets/image (22).jpg";
-import image5 from "../../../assets/image (16).jpg";
-import image6 from "../../../assets/image (17).jpg";
-import image7 from "../../../assets/image (18).jpg";
-import image8 from "../../../assets/image (19).jpg";
-import image9 from "../../../assets/image (20).jpg";
-import image10 from "../../../assets/image (15).jpg";
-import image11 from "../../../assets/image (21).jpg";
+import image1 from "../../../../assets/image (23).jpg";
+import image2 from "../../../../assets/image (25).jpg";
+import image3 from "../../../../assets/image (26).jpg";
+import image4 from "../../../../assets/image (22).jpg";
+import image5 from "../../../../assets/image (16).jpg";
+import image6 from "../../../../assets/image (17).jpg";
+import image7 from "../../../../assets/image (18).jpg";
+import image8 from "../../../../assets/image (19).jpg";
+import image9 from "../../../../assets/image (20).jpg";
+import image10 from "../../../../assets/image (15).jpg";
+import image11 from "../../../../assets/image (21).jpg";
 import SlideComponent1 from "./SlideComponent1";
 import SlideComponent2 from "./SlideComponent2";
 import SlideComponent3 from "./SlideComponent3";
@@ -57,7 +57,7 @@ function RightSlide2() {
 
   return (
     <div
-      className="md:absolute text-white md:-top-80 md:-right-40 md:m-20 md:w-3/4"
+      className="md:absolute text-white md:-top-80 md:-right-40 md:m-20 md:w-3/4 image-slide"
       data-carousel="static"
     >
       <div className="overflow-hidden relative w-screen md:w-auto">

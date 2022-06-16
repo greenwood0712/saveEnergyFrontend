@@ -50,15 +50,15 @@ function NetworkHeader() {
               : "hidden"
           }`}
         >
-          <div className="navbar-collapse collapse flex-1">
-            <ul className="navbar-nav justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
+          <div className="flex-1">
+            <ul className="justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
               {navigations.map((item, idx) => {
                 return (
                   <li
                     key={idx}
-                    className="nav-item pt-3 pb-5 px-3 border-b-4 border-gray-800 hover:border-green-500"
+                    className="pt-3 pb-5 px-3 border-b-4 border-gray-800 hover:border-green-500"
                   >
-                    <a href={item.path} className="nav-link">
+                    <a href={item.path} className="">
                       {item.title}
                     </a>
                   </li>

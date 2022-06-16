@@ -1,7 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import CountDown from '../components/Network/CountDown'
+import Featured from '../components/Network/Featured'
 import NetworkHeader from '../components/Network/NetworkHeader'
+import SecondNav from '../components/Network/SecondNav'
 
 function Network() {
   return (
@@ -17,6 +19,12 @@ function Network() {
         </div>
       </div>
       <CountDown />
+      <div className='bg-gray-300 px-20 py-2 flex text-xs text-gray-700'>
+        <a href='/'>HOME</a>
+        <p className='px-1'> / DISCOVER MORE NETWORK</p>
+      </div>
+      <SecondNav />
+      <Featured />
     </Layout>
   )
 }

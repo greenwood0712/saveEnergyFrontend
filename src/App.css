@@ -79,3 +79,12 @@
   /* color: transparent; */
   /* background-color: blue; */
 }
+
+.timing strong {
+  color: #057a55;
+}
+
+.timing span {
+  font-size: 25px;
+  padding: 15px;
+}

@@ -66,7 +66,7 @@ function Header({ headerPosition }) {
         </nav>
       )}
       {!search && (
-        <nav className={`navbar navbar-expand-lg w-full ${headerPosition ? 'fixed' : 'relative'} border-0 bg-black text-white text-xs font-bold pt-4 z-50`}>
+        <nav className={`w-full ${headerPosition ? 'fixed' : 'relative'} border-0 bg-black text-white text-xs font-bold pt-4 z-50`}>
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
             <div className="flex items-center justify-between py-3 mb-2">
               <a className="flex" href="/">
@@ -194,22 +194,22 @@ function Header({ headerPosition }) {
                 </ul>
               </div>
               
-              <div className="navbar-collapse collapse flex-1">
-                <ul className="navbar-nav justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
+              <div className="flex-1">
+                <ul className="justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
                   {navigations.map((item, idx) => {
                     if (idx === 0) {
                       return <li
                         key={idx}
-                        className="nav-item dropdown relative pt-3 pb-5 px-3 border-b-4 border-black focus:border-green-500 hover:border-green-500"
+                        className="relative pt-3 pb-5 px-3 border-b-4 border-black focus:border-green-500 hover:border-green-500"
                       >
-                        <button className="navlink" onClick={() => setNavbar(true)}>{item.title}</button>
+                        <button className="" onClick={() => setNavbar(true)}>{item.title}</button>
                       </li>
                     } else {
                       return <li
                         key={idx}
-                        className="nav-item pt-3 pb-5 px-3 border-b-4 border-black hover:border-green-500"
+                        className="pt-3 pb-5 px-3 border-b-4 border-black hover:border-green-500"
                       >
-                        <a href={item.path} className="nav-link">{item.title}</a>
+                        <a href={item.path} className="">{item.title}</a>
                       </li>
                     }
                   })}

@@ -14,7 +14,7 @@ import RightSlide from "./part2/RightSlide";
 
 function Slide() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [state, setState] = useState(0)
+  const [state, setState] = useState(0);
 
   const slideImages = [
     { title: "HPE Discover 2022", path: image1 },
@@ -47,127 +47,112 @@ function Slide() {
       setCurrentIndex(0);
     }
   };
-  
+
   return (
-    <div id="default-carousel" className="">
+    <div
+      id="carouselExampleCaptions"
+      className="carousel slide "
+      data-bs-ride="carousel"
+      data-bs-interval="false"
+    >
       <div className="overflow-hidden relative">
-        <div
-          className="z-20 inline-block"
-          data-carousel-item
-        > 
-          <div id="image-slide">
-            <img
-              src={slideImages[currentIndex].path}
-              className="relative md:-top-40 block image-slide w-auto"
-              alt={slideImages[currentIndex].title}
-            />
-          </div>
-          {components[currentIndex]}
+        <div className="carousel-inner z-20 inline-block" data-carousel-item>
+          {slideImages.map((slideImage, idx) => {
+            if (idx === 0) {
+              return (
+                <div id="image-slide" className="carousel-item active w-auto">
+                  <img
+                    src={slideImage.path}
+                    className="relative md:-top-40 block image-slide"
+                    alt={slideImage.title}
+                  />
+                  {components[idx]}
+                </div>
+              );
+            } else {
+              return (
+                <div id="image-slide" className="carousel-item w-auto">
+                  <img
+                    src={slideImage.path}
+                    className="relative md:-top-40 block image-slide"
+                    alt={slideImage.title}
+                  />
+                  {components[idx]}
+                </div>
+              );
+            }
+          })}
           <div className="md:relative md:absolute md:bottom-96">
             <LeftPart state={state} setState={setState} />
             <RightSlide state={state} />
           </div>
         </div>
       </div>
-      <div className="flex md:absolute mb-20 bottom-10 left-1/2 z-30 space-x-3 -translate-x-1/2">
+      <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
         <button
           type="button"
-          className={`w-3 h-3 rounded-full hover:bg-white dark:hover:bg-gray-800 ${currentIndex === 0 ? 'bg-white dark:bg-gray-800' : 'bg-white/50 dark:bg-gray-800/50'}`}
+          className={`active`}
+          data-bs-target="#carouselExampleCaptions"
           aria-current="true"
           aria-label="Slide 1"
-          data-carousel-slide-to="0"
-          onClick={() => {
-            setCurrentIndex(0);
-          }}
+          data-bs-slide-to="0"
         ></button>
         <button
           type="button"
-          className={`w-3 h-3 rounded-full hover:bg-white dark:hover:bg-gray-800 ${currentIndex === 1 ? 'bg-white dark:bg-gray-800' : 'bg-white/50 dark:bg-gray-800/50'}`}
-          aria-current="false"
+          className={``}
+          data-bs-target="#carouselExampleCaptions"
           aria-label="Slide 2"
-          data-carousel-slide-to="1"
-          onClick={() => {
-            setCurrentIndex(1);
-          }}
+          data-bs-slide-to="1"
         ></button>
         <button
           type="button"
-          className={`w-3 h-3 rounded-full hover:bg-white dark:hover:bg-gray-800 ${currentIndex === 2 ? 'bg-white dark:bg-gray-800' : 'bg-white/50 dark:bg-gray-800/50'}`}
-          aria-current="false"
+          className={``}
+          data-bs-target="#carouselExampleCaptions"
           aria-label="Slide 3"
-          data-carousel-slide-to="2"
-          onClick={() => {
-            setCurrentIndex(2);
-          }}
+          data-bs-slide-to="2"
         ></button>
         <button
           type="button"
-          className={`w-3 h-3 rounded-full hover:bg-white dark:hover:bg-gray-800 ${currentIndex === 3 ? 'bg-white dark:bg-gray-800' : 'bg-white/50 dark:bg-gray-800/50'}`}
-          aria-current="false"
+          className={` ${
+            currentIndex === 3
+              ? "bg-white dark:bg-gray-800"
+              : "bg-white/50 dark:bg-gray-800/50"
+          }`}
+          data-bs-target="#carouselExampleCaptions"
           aria-label="Slide 4"
-          data-carousel-slide-to="3"
-          onClick={() => {
-            setCurrentIndex(3);
-          }}
+          data-bs-slide-to="3"
         ></button>
         <button
           type="button"
-          className={`w-3 h-3 rounded-full hover:bg-white dark:hover:bg-gray-800 ${currentIndex === 4 ? 'bg-white dark:bg-gray-800' : 'bg-white/50 dark:bg-gray-800/50'}`}
-          aria-current="false"
+          className={``}
+          data-bs-target="#carouselExampleCaptions"
           aria-label="Slide 5"
-          data-carousel-slide-to="4"
-          onClick={() => {
-            setCurrentIndex(4);
-          }}
+          data-bs-slide-to="4"
         ></button>
       </div>
       <button
         type="button"
-        onClick={movePrev}
-        className="carousel-control-prev flex absolute top-1/2 left-0 z-30 justify-center items-center px-4 cursor-pointer group focus:outline-none"
-        data-carousel-prev
+        className="carousel-control-prev w-auto flex absolute top-1/2 left-0 z-30 justify-center items-center px-4 cursor-pointer group focus:outline-none"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
       >
-        <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-none dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg
-            className="text-white dark:text-gray-800"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="3"
-              d="M15 19l-7-7 7-7"
-            ></path>
-          </svg>
-          <span className="hidden">Previous</span>
-        </span>
+        <span
+          class="carousel-control-prev-icon inline-block md:p-8 rounded-full dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Previous</span>
       </button>
       <button
+        class="carousel-control-next w-auto absolute top-1/2 flex items-center justify-center px-4 text-center cursor-pointer group focus:outline-none right-0"
         type="button"
-        onClick={moveNext}
-        className="carousel-control-next flex absolute top-1/2 right-0 z-30 justify-center items-center px-4 cursor-pointer group focus:outline-none"
-        data-carousel-next
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
       >
-        <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-none dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg
-            className="text-white dark:text-gray-800"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="3"
-              d="M9 5l7 7-7 7"
-            ></path>
-          </svg>
-          <span className="hidden">Next</span>
-        </span>
+        <span
+          class="carousel-control-next-icon inline-block md:p-8 rounded-full dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          aria-hidden="true"
+        ></span>
+        <span class="visually-hidden">Next</span>
       </button>
     </div>
   );

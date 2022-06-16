@@ -4,6 +4,7 @@ module.exports = {
     // './pages/**/*.{html,js}',
     "./src/**/*.{js,jsx,ts,tsx}",
     "./node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+    './node_modules/tw-elements/dist/js/**/*.js',
   ],
   theme: {
     screens: {
@@ -25,7 +26,7 @@ module.exports = {
     //   'current': 'currentColor'
     // },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
+      sans: ['MetricHPEXS', 'Arial', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     extend: {
@@ -49,5 +50,6 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('tailwindcss-children'),
     require('flowbite/plugin'),
+    require('tw-elements/dist/plugin'),
   ],
 }

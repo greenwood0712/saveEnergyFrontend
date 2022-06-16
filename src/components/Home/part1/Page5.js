@@ -8,7 +8,7 @@ function Page5() {
       Dive in to the latest issue of The Doppler for expert perspectives on finding success as a data-first enterprise.
       </p>
       <div className="md:flex">
-        <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-700 outline-none outline-offset-0 hover:outline-2 hover:outline-green-700 rounded py-3">
+        <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-500 outline-none outline-offset-0 hover:outline-2 hover:outline-green-500 rounded py-3">
           Read the report&nbsp;&nbsp;
           <svg
             xmlns="http://www.w3.org/2000/svg"

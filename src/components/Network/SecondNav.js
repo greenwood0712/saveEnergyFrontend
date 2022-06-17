@@ -54,7 +54,7 @@ function SecondNav() {
                 return (
                   <li
                     key={idx}
-                    className="pt-3 pb-5 px-3 border-b-4 border-white focus:border-green-500 active:border-green-500"
+                    className="pt-3 pb-5 px-3 border-b-4 border-white hover:border-green-500 focus:border-green-500 active:border-green-500"
                   >
                     <a href={item.path} className="">
                       {item.title}

@@ -6,9 +6,8 @@ import rightImage2 from "../../assets/network/image.jpg";
 function Featured() {
   return (
     <div className="m-20 flex flex-col justify-center items-center">
-      <h1 className="text-4xl py-5 border-b-8 border-purple-800 font-sans font-black w-fit">
-        Featured Content
-      </h1>
+      <h1 className="text-4xl font-[sans] font-black">Featured Contents</h1>
+      <p className="bg-purple-800 w-1/12 py-1 mt-5"></p>
       <div className="md:flex mt-10 featured-content text-white">
         <div className=" relative">
           <img className="" src={leftImage} alt="HPE DISCOVER" />

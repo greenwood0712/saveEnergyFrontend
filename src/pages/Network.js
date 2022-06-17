@@ -28,12 +28,14 @@ function Network() {
         <a href='/'>HOME</a>
         <p className='px-1'> / DISCOVER MORE NETWORK</p>
       </div>
-      <SecondNav />
-      <Featured />
-      <New />
-      <Events />
-      <Podcasts />
-      <Enterprise />
+      <div className='relative'>
+        <SecondNav />
+        <Featured />
+        <New />
+        <Events />
+        <Podcasts />
+        <Enterprise />
+      </div>
       <Resource />
     </Layout>
   )

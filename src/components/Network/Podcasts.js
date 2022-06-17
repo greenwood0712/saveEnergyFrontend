@@ -7,7 +7,7 @@ import image5 from "../../assets/network/The-Element-podcast-400-400.jpg";
 
 function Podcasts() {
   return (
-    <div className="bg-gray-300 flex flex-col justify-center items-center p-20">
+    <div className="bg-gray-200 flex flex-col justify-center items-center p-20">
       <h1 className="text-4xl font-[sans] font-black">RECOMMENDED PODCASTS</h1>
       <p className="bg-green-400 w-1/12 py-1 mt-5"></p>
       <div className="my-5">

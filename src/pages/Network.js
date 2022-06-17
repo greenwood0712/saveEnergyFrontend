@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import CountDown from '../components/Network/CountDown'
+import Enterprise from '../components/Network/Enterprise'
 import Events from '../components/Network/Events'
 import Featured from '../components/Network/Featured'
 import NetworkHeader from '../components/Network/NetworkHeader'
+import New from '../components/Network/New'
 import Podcasts from '../components/Network/Podcasts'
+import Resource from '../components/Network/Resource'
 import SecondNav from '../components/Network/SecondNav'
 
 function Network() {
@@ -27,8 +30,11 @@ function Network() {
       </div>
       <SecondNav />
       <Featured />
+      <New />
       <Events />
       <Podcasts />
+      <Enterprise />
+      <Resource />
     </Layout>
   )
 }

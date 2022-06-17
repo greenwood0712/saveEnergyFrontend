@@ -136,3 +136,35 @@
 .podcast-container:hover .podcast-animation {
   transform: rotateY(0deg);
 }
+
+.animated-detail {
+  animation-duration: .6s;
+  animation-fill-mode: forwards;
+  animation-name: listFadeIn;
+  animation-timing-function: ease-in;
+  opacity: 0;
+}
+
+@keyframes listFadeIn {
+  0% { 
+    opacity: 0;
+    transform:translateY(20px)
+  }
+  100% { 
+    opacity: 1;
+    transform:translateY(0)
+  }
+}
+
+.animated-detail .text-content {
+  z-index: 1;
+}
+
+.animated-detail:hover .text-content {
+  transition: transform .5s ease;
+  transform: translateY(-40px);
+}
+
+.animated-detail .nav-block {
+  z-index: -1;
+}

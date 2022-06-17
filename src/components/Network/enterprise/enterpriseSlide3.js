@@ -4,7 +4,7 @@ import image from "../../../assets/network/enterprise/image (2).jpg";
 function enterpriseSlide3() {
   return (
     <a
-      className="w-full mx-2 flex flex-col h-full"
+      className="w-full flex flex-col h-full"
       href="https://www.hpe.com/us/en/insights/articles/feeding-the-world--one-terabyte-at-a-time-2111.html"
     >
       <div className="relative w-full h-full">
@@ -13,7 +13,7 @@ function enterpriseSlide3() {
           AI
         </div>
       </div>
-      <div className="p-5 flex flex-col justify-around bg-white h-full ">
+      <div className="p-5 flex flex-col justify-around bg-white h-full md:mr-4">
         <div className="font-bold">Feeding the world, one terabyte at...</div>
         <div className="text-xs pt-5">
           As the global population explodes, HPE's Memory-Driven Computing

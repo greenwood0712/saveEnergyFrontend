@@ -4,7 +4,7 @@ import image from "../../../assets/network/enterprise/image (1).jpg";
 function enterpriseSlide2() {
   return (
     <a
-      className="w-full mx-2 flex flex-col h-full"
+      className="w-full flex flex-col h-full"
       href="https://www.hpe.com/us/en/insights/reports/2021/the-state-of-enterprise-cloud-adoption.html"
     >
       <div className="relative w-full h-full">
@@ -13,7 +13,7 @@ function enterpriseSlide2() {
           CLOUD & HYBRID IT
         </div>
       </div>
-      <div className="p-5 flex flex-col justify-around bg-white h-full">
+      <div className="p-5 flex flex-col justify-around bg-white h-full md:mr-4">
         <div className='font-bold'>The State of Enterprise ...</div>
         <div className="text-xs pt-5">
             What we’ve learned about how to get it right.

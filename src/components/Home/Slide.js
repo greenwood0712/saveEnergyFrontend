@@ -13,7 +13,6 @@ import LeftPart from "./part2/LeftPart";
 import RightSlide from "./part2/RightSlide";
 
 function Slide() {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [state, setState] = useState(0);
 
   const slideImages = [
@@ -32,22 +31,6 @@ function Slide() {
 
   const components = [<Page1 />, <Page2 />, <Page3 />, <Page4 />, <Page5 />];
 
-  const movePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex((prevState) => prevState - 1);
-    }
-    if (currentIndex === 0) {
-      setCurrentIndex(slideImages.length - 1);
-    }
-  };
-
-  const moveNext = () => {
-    setCurrentIndex((prevState) => prevState + 1);
-    if (currentIndex === slideImages.length - 1) {
-      setCurrentIndex(0);
-    }
-  };
-
   return (
     <div
       id="carouselExampleCaptions"
@@ -63,7 +46,7 @@ function Slide() {
                 <div id="image-slide" className="carousel-item active w-auto">
                   <img
                     src={slideImage.path}
-                    className="relative md:-top-40 block image-slide"
+                    className="relative md:-top-40 block"
                     alt={slideImage.title}
                   />
                   {components[idx]}
@@ -74,7 +57,7 @@ function Slide() {
                 <div id="image-slide" className="carousel-item w-auto">
                   <img
                     src={slideImage.path}
-                    className="relative md:-top-40 block image-slide"
+                    className="relative md:-top-40 block"
                     alt={slideImage.title}
                   />
                   {components[idx]}
@@ -113,11 +96,6 @@ function Slide() {
         ></button>
         <button
           type="button"
-          className={` ${
-            currentIndex === 3
-              ? "bg-white dark:bg-gray-800"
-              : "bg-white/50 dark:bg-gray-800/50"
-          }`}
           data-bs-target="#carouselExampleCaptions"
           aria-label="Slide 4"
           data-bs-slide-to="3"

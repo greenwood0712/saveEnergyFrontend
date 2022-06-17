@@ -158,6 +158,8 @@
 
 .animated-detail .text-content {
   z-index: 1;
+  transition: transform .5s ease;
+  transform: translateY(0px);
 }
 
 .animated-detail:hover .text-content {

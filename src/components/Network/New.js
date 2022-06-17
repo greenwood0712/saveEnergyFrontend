@@ -1,4 +1,7 @@
 import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 import image1 from "../../assets/network/image (2).jpg";
 import image2 from "../../assets/network/image (1).jpg";
 import image3 from "../../assets/network/image (2).jpg";
@@ -45,24 +48,71 @@ function New() {
       text: "This on-demand event brings you into the world of one of our most innovative customers, where you can see, learn, and experience digital...",
     },
   ];
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 3, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
 
   return (
-    <div className="bg-gray-200 flex flex-col justify-center items-center p-20">
-      <h1 className="text-4xl font-[sans] font-black">New</h1>
-      <p className="bg-yellow-400 w-1/12 py-1 my-5"></p>
-      <div className="md:flex flex-wrap justify-between relative w-full overflow-hidden">
-        {cards.map((card) => {
+    <div className="bg-gray-200 p-20">
+      <div className="flex flex-col justify-center items-center">
+        <h1 className="text-4xl font-[sans] font-black">New</h1>
+        <p className="bg-yellow-400 w-1/12 py-1 my-5"></p>
+      </div>
+      <Carousel
+        additionalTransfrom={0}
+        arrows
+        autoPlaySpeed={3000}
+        centerMode={false}
+        deviceType="desktop"
+        className=""
+        containerClass="container-with-dots"
+        dotListClass=""
+        draggable
+        focusOnSelect={false}
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        pauseOnHover
+        renderArrowsWhenDisabled={false}
+        renderButtonGroupOutside={false}
+        renderDotsOutside
+        responsive={responsive}
+        rewind={false}
+        rewindWithAnimation={false}
+        rtl={false}
+        shouldResetAutoplay
+        showDots
+        sliderClass=""
+        slidesToSlide={1}
+        swipeable
+      >
+        {cards.map((card, idx) => {
           return (
-            <div className="animated-detail md:w-1/3 p-3 flex flex-col h-full">
+            <div key={idx} className="animated-detail p-3 flex flex-col h-full">
               <a className="w-full" href={card.path}>
-                <div className="relative w-full h-full">
-                  <img src={card.image} alt="..." className="h-full" />
+                <div className="relative">
+                  <img src={card.image} alt="..." className="" />
                   {/* <div className="w-fit px-3 py-1 bg-black/50 text-white absolute bottom-0 left-0 text-center">
                   SECURITY
                 </div> */}
                 </div>
                 <div className="relative">
-                  <div className="text-content p-5 flex flex-col justify-around bg-white h-full">
+                  <div className="text-content p-5 flex flex-col justify-around bg-white">
                     <div className="font-bold">{card.title}</div>
                     <div className="text-xs pt-5">{card.text}</div>
                   </div>
@@ -88,7 +138,7 @@ function New() {
             </div>
           );
         })}
-      </div>
+      </Carousel>
     </div>
   );
 }

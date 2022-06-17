@@ -88,3 +88,51 @@
   font-size: 25px;
   padding: 15px;
 }
+
+.featured-content {
+  width: 90vw;
+}
+
+.additional-link {
+  transition: transform .2s ease;
+  transform: translateY(100%)
+}
+
+.additional-overlay:hover .additional-link {
+  transform: translateY(0);
+}
+
+.podcast-container {
+  perspective: 1000px;
+  width: 25%;
+}
+
+@media (max-width: 767px) {
+  .podcast-container {
+    width: auto;
+  }
+}
+
+.podcast-animation {
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+  transition: .6s;
+  transition-delay: .08s;
+  backface-visibility: visible;
+}
+
+.podcast-link {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: rotateY(0);
+}
+
+.podcast-front {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  z-index: 2;
+}
+
+.podcast-container:hover .podcast-animation {
+  transform: rotateY(0deg);
+}

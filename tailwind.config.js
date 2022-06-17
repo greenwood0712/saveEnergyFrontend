@@ -34,13 +34,18 @@ module.exports = {
         '128': '32rem',
         '144': '36rem',
       },
+      width: {
+        '128': '32rem',
+        '144': '36rem',
+      },
       borderRadius: {
         '4xl': '2rem',
       },
       backgroundImage: {
         'virtual-tour': "url('/src/assets/image (12).jpg')",
         'footer-image': "url('/src/assets/image (13).jpg')",
-        'countdown' : "url('/src/assets/network/image (7).jpg')"
+        'countdown' : "url('/src/assets/network/image (7).jpg')",
+        'event-background-image' : "url('/src/assets/network/image (26).jpg')",
       }
     }
   },

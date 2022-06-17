@@ -50,17 +50,17 @@ function Enterprise() {
             aria-label="Slide 4"
           ></button>
         </div>
-        <div className="carousel-inner flex flex-wrap justify-between relative w-full overflow-hidden">
-          <div className="float-left mx-2 w-[30%]">
+        <div className="carousel-inner md:flex flex-wrap justify-between relative w-full overflow-hidden">
+          <div className="float-left mx-2 md:w-[30%]">
             <EnterpriseSlide1 />
           </div>
-          <div className="float-left mx-2 w-[30%]">
+          <div className="float-left mx-2 md:w-[30%]">
             <EnterpriseSlide2 />
           </div>
-          <div className="float-left mx-2 w-[30%]">
+          <div className="float-left mx-2 md:w-[30%]">
             <EnterpriseSlide3 />
           </div>
-          <div className="float-left mx-2 w-[30%]">
+          <div className="float-left mx-2 md:w-[30%]">
             <EnterpriseSlide4 />
           </div>
         </div>

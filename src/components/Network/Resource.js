@@ -14,7 +14,7 @@ function Resource() {
           Explore reports, case studies, videos and more to learn about the
           latest HPE products and IT topics.
         </div>
-        <div className="pt-10">
+        <div className="py-10">
           <a
             href="https://www.hpe.com/us/en/resource-library.html"
             className="arrow-animation flex justify-center items-center text-white font-bold w-fit p-3 outline-none outline-offset-0 bg-green-500 hover:outline-2 hover:outline-green-500 rounded-md"

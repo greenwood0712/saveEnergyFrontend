@@ -50,10 +50,10 @@ function New() {
     <div className="bg-gray-200 flex flex-col justify-center items-center p-20">
       <h1 className="text-4xl font-[sans] font-black">New</h1>
       <p className="bg-yellow-400 w-1/12 py-1 my-5"></p>
-      <div className="flex flex-wrap justify-between relative w-full overflow-hidden">
+      <div className="md:flex flex-wrap justify-between relative w-full overflow-hidden">
         {cards.map((card) => {
           return (
-            <div className="animated-detail w-1/3 p-3 flex flex-col h-full">
+            <div className="animated-detail md:w-1/3 p-3 flex flex-col h-full">
               <a className="w-full" href={card.path}>
                 <div className="relative w-full h-full">
                   <img src={card.image} alt="..." className="h-full" />

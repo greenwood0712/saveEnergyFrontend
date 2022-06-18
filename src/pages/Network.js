@@ -33,7 +33,7 @@ function Network() {
         <Featured />
         <New />
         <Events />
-        <Podcasts />
+        <Podcasts/>
         <Enterprise />
       </div>
       <Resource />

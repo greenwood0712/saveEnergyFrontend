@@ -30,7 +30,7 @@ function SecondNav() {
   ];
 
   return (
-    <div className="w-full border-b-2 border-gray-600 pt-2">
+    <div className="sticky-top w-full bg-white border-b-2 border-gray-600 pt-2">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-start py-3 mb-2 md:hidden">
           <p>Jump to</p>

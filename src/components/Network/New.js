@@ -67,7 +67,7 @@ function New() {
   };
 
   return (
-    <div className="bg-gray-200 p-20">
+    <div id="new" className="bg-gray-200 p-20">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-4xl font-[sans] font-black">New</h1>
         <p className="bg-yellow-400 w-1/12 py-1 my-5"></p>

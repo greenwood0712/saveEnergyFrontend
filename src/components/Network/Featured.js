@@ -5,7 +5,7 @@ import rightImage2 from "../../assets/network/image.jpg";
 
 function Featured() {
   return (
-    <div className="m-20 flex flex-col justify-center items-center">
+    <div id='featuredcontent' className="m-20 flex flex-col justify-center items-center">
       <h1 className="text-4xl font-[sans] font-black">Featured Contents</h1>
       <p className="bg-purple-800 w-1/12 py-1 mt-5"></p>
       <div className="md:flex mt-10 featured-content text-white">

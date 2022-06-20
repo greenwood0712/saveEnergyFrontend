@@ -7,11 +7,11 @@ import image5 from "../../assets/network/The-Element-podcast-400-400.jpg";
 
 function Podcasts() {
   return (
-    <div id="podcasts" className="bg-gray-200 flex flex-col justify-center items-center p-20">
+    <div id="podcasts" className="bg-gray-200 flex flex-col justify-center items-center p-5 md:p-20">
       <h1 className="text-4xl font-[sans] font-black">RECOMMENDED PODCASTS</h1>
       <p className="bg-green-400 w-1/12 py-1 mt-5"></p>
       <div className="my-5">
-        <a href="https://www.hpe.com/us/en/discover-more-network/podcasts.html">
+        <a href="https://www.hpe.com/us/en/discover-more-network/podcasts.html" className="underline">
           Five podcasts
         </a>{" "}
         with unique perspectives. All are focused on technology, featuring the

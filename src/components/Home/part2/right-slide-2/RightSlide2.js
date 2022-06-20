@@ -10,34 +10,20 @@ import image8 from "../../../../assets/image (19).jpg";
 import image9 from "../../../../assets/image (20).jpg";
 import image10 from "../../../../assets/image (15).jpg";
 import image11 from "../../../../assets/image (21).jpg";
-import SlideComponent1 from "./SlideComponent1";
-import SlideComponent2 from "./SlideComponent2";
-import SlideComponent3 from "./SlideComponent3";
-import SlideComponent4 from "./SlideComponent4";
-import SlideComponent5 from "./SlideComponent5";
-import SlideComponent6 from "./SlideComponent6";
-import SlideComponent7 from "./SlideComponent7";
-import SlideComponent8 from "./SlideComponent8";
-import SlideComponent9 from "./SlideComponent9";
-import SlideComponent10 from "./SlideComponent10";
-import SlideComponent11 from "./SlideComponent11";
+import SlideComponent from "../../SlideComponent";
+import data from './data'
 
 function RightSlide2() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11];
-  const components = [
-    <SlideComponent1 />,
-    <SlideComponent2 />,
-    <SlideComponent3 />,
-    <SlideComponent4 />,
-    <SlideComponent5 />,
-    <SlideComponent6 />,
-    <SlideComponent7 />,
-    <SlideComponent8 />,
-    <SlideComponent9 />,
-    <SlideComponent10 />,
-    <SlideComponent11 />,
+
+  const components_data = [
+    data.map((data, idx) => {
+      return <SlideComponent key={idx} color='border-purple-800' title={data.title} text={data.text} link={data.link} button_text={data.button_text} />
+    })
   ];
+
+  const components = components_data[0]
 
   const movePrev = () => {
     if (currentIndex > 0) {

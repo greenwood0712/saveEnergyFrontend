@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Cyber resilience",
+    "text": "The pandemic and an epidemic of ransomware attacks exposed the need for a new approach to enterprise security and protecting the supply fabric.",
+    "link": "https://www.hpe.com/us/en/insights/articles/cyber-resilience-unknown-unknowns-and-the-transformation-of-enterprise-security-2111.html",
+    "button_text": "Read more",
+    "category" : "SECURITY"
+  },
+  {
+    "title": "The State of Enterprise ...",
+    "text": "What we’ve learned about how to get it right.",
+    "link": "https://www.hpe.com/us/en/insights/reports/2021/the-state-of-enterprise-cloud-adoption.html",
+    "button_text": "Read more",
+    "category" : "CLOUD & HYBRID IT"
+  },
+  {
+    "title": "Feeding the world, one terabyte at...",
+    "text": "As the global population explodes, HPE's Memory-Driven Computing Sandbox is the power behind a new effort to improve the world's food security.",
+    "link": "https://www.hpe.com/us/en/insights/articles/feeding-the-world--one-terabyte-at-a-time-2111.html",
+    "button_text": "Read more",
+    "category" : "AI"
+  },
+  {
+    "title": "The road to machine learning",
+    "text": "Failures in machine learning models generate major headlines, but this is how the technology is supposed to work.",
+    "link": "https://www.hpe.com/us/en/insights/articles/the-road-to-machine-learning-success-is-paved-with-failure-2112.html",
+    "button_text": "Read more",
+    "category" : "AI"
+  }
+]

@@ -2,18 +2,19 @@ import React, { useState } from "react";
 import image1 from "../../../../assets/image (5).jpg";
 import image2 from "../../../../assets/image (6).jpg";
 import image3 from "../../../../assets/image (7).jpg";
-import SlideComponent1 from "./SlideComponent1";
-import SlideComponent2 from "./SlideComponent2";
-import SlideComponent3 from "./SlideComponent3";
+import SlideComponent from "../../SlideComponent";
+import data from './data.json'
 
 function RightSlide1() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [image1, image2, image3];
-  const components = [
-    <SlideComponent1 />,
-    <SlideComponent2 />,
-    <SlideComponent3 />,
+  const components_data = [
+    data.map((data, idx) => {
+      return <SlideComponent key={idx} color='border-yellow-400' title={data.title} text={data.text} link={data.link} button_text={data.button_text} />
+    })
   ];
+
+  const components = components_data[0]
 
   const movePrev = () => {
     if (currentIndex > 0) {

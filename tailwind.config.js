@@ -46,6 +46,8 @@ module.exports = {
         'footer-image': "url('/src/assets/image (13).jpg')",
         'countdown' : "url('/src/assets/network/image (7).jpg')",
         'event-background-image' : "url('/src/assets/network/image (26).jpg')",
+        'greenlake-image': "url('/src/assets/image (29).jpg')",
+        'countDown-text': "url('/src/assets/network/image (9).jpg')"
       }
     }
   },

@@ -170,3 +170,12 @@
 .animated-detail .nav-block {
   z-index: -1;
 }
+
+.text-parell {
+  background-attachment: fixed;
+  background-position: top;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 100% auto;
+  color: transparent;
+}

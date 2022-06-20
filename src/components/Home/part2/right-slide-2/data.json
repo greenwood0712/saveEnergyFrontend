@@ -1,0 +1,68 @@
+[
+  {
+    "title": "HPE Discover 2022",
+    "text": "The edge-to-cloud conference Las Vegas June 28-30",
+    "link": "https://www.hpe.com/us/en/discover.html",
+    "button_text": "Register now"
+  },
+  {
+    "title": "Accelerate the Business Value of VDI with the Cloud Experience",
+    "text": "Many IT leaders look to VDI to provide the distributed workforce with secure access regardless of location. Join the experts to learn how to bring the cloud experience to modernize and scale VDI services to meet the challenge of the modern digital workplace.",
+    "link": "#",
+    "button_text": "Watch on-demand"
+  },
+  {
+    "title": "The future of the legal profession depends on digital transformation",
+    "text": "Law firms that don't adopt new technologies are getting left behind.",
+    "link": "https://www.hpe.com/us/en/insights/articles/the-future-of-the-legal-profession-depends-on-digital-transforma-2201.html?jumpid=in_510404507_AroundHPE_NXTfutureoflegal-0114022",
+    "button_text": "Learn more"
+  },
+  {
+    "title": "Deepfake scams are coming. Is your business ready?",
+    "text": "Using AI to impersonate executives is the latest way for scammers to steal your company's money or wreck its reputation. Buckle your seat belts—things are about to get (un)real.",
+    "link": "https://www.hpe.com/us/en/insights/articles/deepfake-scams-are-coming-is-your-business-ready-2201.html?jumpid=in_510404507_AroundHPE_NXTdeepfakescams-0114022",
+    "button_text": "Learn more"
+  },
+  {
+    "title": "The fragility of the global supply chain (and how to fix it)",
+    "text": "The power team of AI and humans can get us through current and future supply chain disruptions.",
+    "link": "https://www.hpe.com/us/en/insights/articles/the-fragility-of-the-global-supply-chain-and-how-to-fix-it-2201.html?jumpid=in_510404507_AroundHPE_NXTfragilitysupplychain-0114022",
+    "button_text": "Watch the video"
+  },
+  {
+    "title": "The do's and don'ts of machine learning",
+    "text": "Successful machine learning models demand rigorous and consistent data management. In this Tech Talk episode, HPE distinguished technologist Rajesh Vijayarajan looks at solutions for large, complex implementations.",
+    "link": "https://www.hpe.com/us/en/insights/articles/the-dos-and-donts-of-machine-learning-2201.html?jumpid=in_510404507_AroundHPE_NXTdosanddontsml-0114022",
+    "button_text": "Learn more"
+  },
+  {
+    "title": "Is ransomware really as bad as we think it is?",
+    "text": "Turns out the ransomware problem might be even worse than we thought.",
+    "link": "https://www.hpe.com/us/en/insights/articles/is-ransomware-really-as-bad-as-we-think-it-is-2112.html?jumpid=in_510404507_AroundHPE_NXTransomwarehostage-0114022",
+    "button_text": "Learn more"
+  },
+  {
+    "title": "HPE NAMED A LEADER for 2021",
+    "text": "To us, nothing says “industry leader” quite like being named an actual Leader in the 2021 Gartner® Magic QuadrantTM for Primary Storage. For the third year in a row, we’re thrilled to be recognized for our completeness of vision and ability to execute.",
+    "link": "https://www.hpe.com/us/en/resources/storage/magic-quadrant-primary-storage.html?parentPage=/us/en/home",
+    "button_text": "Watch the video"
+  },
+  {
+    "title": "Exascale computing: What it is and what it could be",
+    "text": "Supercomputers keep bringing the previously impossible within our reach.",
+    "link": "https://www.hpe.com/us/en/insights/articles/exascale-computing-what-it-is-and-what-it-could-be-2110.html?jumpid=in_510404507_AroundHPE_NXTexascalecomputingwhatitis-101421",
+    "button_text": "Watch the video"
+  },
+  {
+    "title": "Evolve your operating model to succeed at digital transformation",
+    "text": "A successful cloud digital transformation requires a smart operating model.",
+    "link": "https://www.hpe.com/us/en/insights/articles/evolve-your-operating-model-to-succeed-at-digital-transformation-2109.html?jumpid=in_510404507_AroundHPE_NXTevolveoperatingmodel-101221",
+    "button_text": "Learn more"
+  },
+  {
+    "title": "Transforming energy at Suncor",
+    "text": "Canada's largest integrated energy company is using cloud to reinvent every aspect of its business.",
+    "link": "https://www.hpe.com/us/en/insights/articles/transforming-energy-at-suncor-2109.html?jumpid=in_510404507_AroundHPE_NXTsuncor-101221",
+    "button_text": "Read how"
+  }
+]

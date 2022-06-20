@@ -3,7 +3,7 @@ import React from "react";
 function GreenLake() {
   return (
     <div className="md:w-1/2">
-      <p className="header-text text-5xl md:text-8xl font-extrabold">
+      <p className="text-parell bg-greenlake-image header-text text-5xl md:text-8xl font-extrabold">
         The cloud that comes to you
       </p>
       <p className="text-xl py-5">

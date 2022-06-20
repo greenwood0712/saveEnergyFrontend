@@ -4,9 +4,9 @@ function CountDown() {
   return (
     <div className="flex flex-col justify-center items-center text-center text-white p-20 bg-countdown">
       <p className="text-3xl font-bold">Countdown to</p>
-      <div className="text-8xl font-black py-8 text-color-transparent">
+      <h1 className="text-parell bg-countDown-text text-8xl font-black py-8 text-color-transparent">
         HPE DISCOVER 2022
-      </div>
+      </h1>
       <div className="border-2 border-blue-400 p-5 w-fit">
         <div className="text-5xl flex timing">
           <div className="flex flex-col px-2">

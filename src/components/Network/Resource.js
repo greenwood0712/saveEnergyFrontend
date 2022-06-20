@@ -3,8 +3,8 @@ import image from "../../assets/network/image (28).jpg";
 
 function Resource() {
   return (
-    <div className="md:flex justify-between p-20 bg-white">
-      <div className="md:w-1/2 mt-5 md:mt-20">
+    <div className="md:flex justify-between p-10 md:p-20 bg-white">
+      <div className="w-full md:w-1/2 mt-5 md:mt-20">
         <h1 className="text-4xl font-black">HPE RESOURCE LIBRARY</h1>
         <p className="bg-purple-700 w-1/12 py-1 mt-3"></p>
         <h1 className="text-3xl font-[sans] font-bold mt-3">

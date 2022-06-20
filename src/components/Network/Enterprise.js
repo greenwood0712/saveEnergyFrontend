@@ -3,7 +3,7 @@ import EnterpriseSlide from "./EnterpriseSlide";
 
 function Enterprise() {
   return (
-    <div id="enterprisenxt" className="bg-gray-300 p-20">
+    <div id="enterprisenxt" className="bg-gray-300 p-5 md:p-20">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-4xl font-[sans] font-black">
           MORE FROM ENTERPRISE.NXT

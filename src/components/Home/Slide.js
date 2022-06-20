@@ -43,7 +43,7 @@ function Slide() {
           {slideImages.map((slideImage, idx) => {
             if (idx === 0) {
               return (
-                <div id="image-slide" className="carousel-item active w-auto">
+                <div key={idx} id="image-slide" className="image-slide carousel-item active w-auto">
                   <img
                     src={slideImage.path}
                     className="relative md:-top-40 block"
@@ -54,7 +54,7 @@ function Slide() {
               );
             } else {
               return (
-                <div id="image-slide" className="carousel-item w-auto">
+                <div key={idx} id="image-slide" className="image-slide carousel-item w-auto">
                   <img
                     src={slideImage.path}
                     className="relative md:-top-40 block"
@@ -71,7 +71,7 @@ function Slide() {
           </div>
         </div>
       </div>
-      <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+      <div className="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
         <button
           type="button"
           className={`active`}
@@ -115,22 +115,22 @@ function Slide() {
         data-bs-slide="prev"
       >
         <span
-          class="carousel-control-prev-icon inline-block md:p-8 rounded-full dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          className="carousel-control-prev-icon inline-block md:p-8 rounded-full dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next w-auto absolute top-1/2 flex items-center justify-center px-4 text-center cursor-pointer group focus:outline-none right-0"
+        className="carousel-control-next w-auto absolute top-1/2 flex items-center justify-center px-4 text-center cursor-pointer group focus:outline-none right-0"
         type="button"
         data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
         <span
-          class="carousel-control-next-icon inline-block md:p-8 rounded-full dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          className="carousel-control-next-icon inline-block md:p-8 rounded-full dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Next</span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );

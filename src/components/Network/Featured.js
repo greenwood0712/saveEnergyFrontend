@@ -6,12 +6,12 @@ import rightImage2 from "../../assets/network/image.jpg";
 function Featured() {
   return (
     <div id='featuredcontent' className="m-20 flex flex-col justify-center items-center">
-      <h1 className="text-4xl font-[sans] font-black">Featured Contents</h1>
+      <h1 className="text-2xl md:text-4xl font-[sans] font-black">Featured Contents</h1>
       <p className="bg-purple-800 w-1/12 py-1 mt-5"></p>
       <div className="md:flex mt-10 featured-content text-white">
-        <div className=" relative">
+        <div className="relative">
           <img className="" src={leftImage} alt="HPE DISCOVER" />
-          <div className="absolute left-0 top-0 bottom-0 w-screen md:w-5/12 h-100 flex flex-col justify-center px-10 bg-black/50">
+          <div className="md:absolute left-0 top-0 bottom-0 w-full md:w-5/12 h-fit md:h-full flex flex-col justify-center px-10 py-10 md:py-0 bg-black/80 md:bg-black/50">
             <p>LAS VEGAS, JUNE 28–30</p>
             <h1 className="text-3xl font-bold pb-10">HPE Discover 2022</h1>
             <p>

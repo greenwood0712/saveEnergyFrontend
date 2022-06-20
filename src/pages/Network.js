@@ -9,12 +9,13 @@ import New from '../components/Network/New'
 import Podcasts from '../components/Network/Podcasts'
 import Resource from '../components/Network/Resource'
 import SecondNav from '../components/Network/SecondNav'
+import Video from '../components/Network/Video'
 
 function Network() {
   return (
     <Layout status={false}>
       <NetworkHeader />
-      <div className='bg-black md:flex md:justify-between p-20 text-left text-white'>
+      <div className='bg-black md:flex md:justify-between p-10 md:p-20 text-center md:text-left text-white'>
         <div className='w-full'>
           <p className='text-5xl font-bold'>Discover More Network</p>
           <p className='text-2xl pt-4'>Explore. Uncover. Engage.</p>
@@ -24,6 +25,7 @@ function Network() {
         </div>
       </div>
       <CountDown />
+      <Video />
       <div className='bg-gray-300 px-20 py-2 flex text-xs text-gray-700'>
         <a href='/'>HOME</a>
         <p className='px-1'> / DISCOVER MORE NETWORK</p>

@@ -171,6 +171,17 @@
   z-index: -1;
 }
 
+.animated-detail .video-content {
+  z-index: 1;
+  transition: height .5s ease;
+  height: 40%;
+}
+
+.animated-detail:hover .video-content {
+  transition: height .5s ease;
+  height: 50%;
+}
+
 .text-parell {
   background-attachment: fixed;
   background-position: top;

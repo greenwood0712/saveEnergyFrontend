@@ -44,7 +44,7 @@ function SecondNav() {
         <div
           className={`justify-between flex-row-reverse lg:overflow-visible lg:flex lg:h-auto ${
             state
-              ? "h-screen pb-20 over-flow-auto mx-2 border-b-2 border-gray-700"
+              ? "h-full pb-20 over-flow-auto mx-2 border-b-2 border-gray-700"
               : "hidden"
           }`}
         >
@@ -54,7 +54,7 @@ function SecondNav() {
                 return (
                   <li
                     key={idx}
-                    className="pt-3 pb-5 px-3 border-b-4 border-white hover:border-green-500 focus:border-green-500 active:border-green-500"
+                    className="pt-3 pb-5 px-3 border-b-2 md:border-b-4 border-gray-700 md:border-white hover:border-green-500 focus:border-green-500 active:border-green-500"
                   >
                     <a href={item.path} className="">
                       {item.title}

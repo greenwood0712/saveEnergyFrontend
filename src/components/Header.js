@@ -2,19 +2,12 @@ import React, { useState } from "react";
 import {
   MenuIcon,
   XIcon,
-  SearchIcon,
-  GlobeIcon,
-  ShoppingBagIcon,
-  ViewGridIcon,
 } from "@heroicons/react/outline";
 import logo from "../assets/gradient.PNG";
 
 function Header({ headerPosition }) {
   const [state, setState] = useState(false);
   const [search, setSearch] = useState(false);
-  const [navbar, setNavbar] = useState(false);
-  const [navbar2, setNavbar2] = useState(false);
-  const [more, setMore] = useState(false);
 
   const navigations = [
     { title: "HPE GreenLake", path: "#" },
@@ -202,7 +195,7 @@ function Header({ headerPosition }) {
                         key={idx}
                         className="relative pt-3 pb-5 px-3 border-b-4 border-black focus:border-green-500 hover:border-green-500"
                       >
-                        <button className="" onClick={() => setNavbar(true)}>{item.title}</button>
+                        <button className="">{item.title}</button>
                       </li>
                     } else {
                       return <li

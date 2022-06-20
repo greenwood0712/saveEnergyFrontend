@@ -2,9 +2,9 @@ import React from "react";
 
 function CountDown() {
   return (
-    <div className="flex flex-col justify-center items-center text-center text-white p-20 bg-countdown">
-      <p className="text-3xl font-bold">Countdown to</p>
-      <h1 className="text-parell bg-countDown-text text-8xl font-black py-8 text-color-transparent">
+    <div className="flex flex-col justify-center items-center text-center text-white p-10 md:p-20 bg-countdown">
+      <p className="text-xl md:text-3xl font-bold">Countdown to</p>
+      <h1 className="text-parell bg-countDown-text text-5xl md:text-8xl font-black py-8">
         HPE DISCOVER 2022
       </h1>
       <div className="border-2 border-blue-400 p-5 w-fit">
@@ -30,7 +30,7 @@ function CountDown() {
           </div>
         </div>
       </div>
-      <div className="text-2xl my-8 w-2/3">
+      <div className="text-2xl my-8 md:w-2/3">
         From the latest insights in secure connectivity, hybrid cloud, AI and
         unified data analytics, HPE Discover 2022 is the best place to stay
         ahead of the trends and technologies that will move your business

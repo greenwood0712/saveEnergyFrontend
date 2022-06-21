@@ -12,7 +12,6 @@ const markdownFiles = importAll(
 ).sort();
 
 function Privacy() {
-  console.log(markdownFiles);
   const [content, setContent] = useState([]);
   useEffect(() => {
     (async () => {

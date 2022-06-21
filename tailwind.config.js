@@ -48,7 +48,8 @@ module.exports = {
         'event-background-image' : "url('/src/assets/network/image (26).jpg')",
         'greenlake-image': "url('/src/assets/image (29).jpg')",
         'countDown-text': "url('/src/assets/network/image (9).jpg')",
-        'privacy-background' : "url('/src/assets/privacy/image.png')"
+        'privacy-background' : "url('/src/assets/privacy/image.png')",
+        'article-cover': "url('/src/assets/blog/image (8).jpg')", 
       }
     }
   },

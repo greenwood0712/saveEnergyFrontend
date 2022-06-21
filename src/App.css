@@ -235,3 +235,44 @@
   top: 15px;
   width: 5px;
 }
+
+.sticky-top {
+  z-index: 1;
+}
+
+.blog-card a {
+  transition: none .125s linear;
+  transition-property: box-shadow, color, margin;
+}
+
+.blog-card .card-tester {
+  opacity: 0;
+  transition: opacity .125s linear;
+}
+
+.blog-card:hover .card-tester {
+  opacity: 1;
+  transition: opacity .125s linear;
+  z-index: 2;
+}
+
+.blog-card .content-type {
+  opacity: 0;
+  transition: opacity .125s linear;
+}
+
+.blog-card:hover .content-type {
+  opacity: 1;
+  transition: opacity .125s linear;
+  z-index: 3;
+}
+
+.blog-card .indicator {
+  opacity: 0;
+  transition: opacity .125s linear;
+}
+
+.blog-card:hover .indicator {
+  opacity: 1;
+  transition: opacity .125s linear;
+}

@@ -3,7 +3,7 @@ import React from "react";
 function HeaderDropdown() {
   return (
     <div
-      className="collapse md:absolute top-20 left-20 flex justify-between text-black bg-white text-base p-5 list-none text-left rounded-md shadow-lg border-none"
+      className="collapse md:absolute top-20 left-20 flex justify-between text-black bg-white text-base p-5 list-none text-left rounded-md shadow-2xl border-none"
       id="collapseExample"
     >
       <div className="md:flex justify-between text-black bg-transparent">

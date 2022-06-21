@@ -105,7 +105,6 @@ function Header({ headerPosition, color }) {
               <div>
                 <ul
                   className="flex justify-around space-x-6"
-                  style={{ color: "white" }}
                 >
                   <li className="py-1">
                     <button

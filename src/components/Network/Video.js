@@ -15,7 +15,6 @@ function Video() {
       clip[i].pause();
     });
   }
-  console.log(path)
 
   return (
     <div>
@@ -31,7 +30,7 @@ function Video() {
             <div className="absolute top-0 md:top-1/3 text-white p-10">
               <p className="">HPE DISCOVER 2022</p>
               <p className="mt-2 mb-6 md:mt-5 md:mb-10 font-black text-5xl">...</p>
-              <div className='flex items-center text-2xl cursor-pointer' onClick={() => {setPath("https://youtu.be/Ms_6A57_7Ro")}}>
+              <div className='flex items-center text-2xl cursor-pointer' onClick={() => {setPath("https://www.youtube.com/embed/Ms_6A57_7Ro")}}>
                 <img
                   src={playerImage}
                   alt="play"

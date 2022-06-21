@@ -19,6 +19,16 @@ module.exports = {
         use: ["babel-loader"],
       },
 
+      {
+        test: /\.(eot|md|svg|ttf|woff|woff2)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+          },
+        },
+      },
+
       // Second Rule
       {
         test: /\.css$/,

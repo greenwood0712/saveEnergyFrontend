@@ -12,7 +12,7 @@ import diagram from "../assets/diagrams_v2.png";
 
 function Home() {
   return (
-    <Layout status={true} >
+    <Layout status={true} color="bg-black" >
       <div className="bg-gradient-to-t from-black to-gray-900 background-image">
         <Slide />
       </div>

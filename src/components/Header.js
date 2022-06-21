@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import {
-  MenuIcon,
-  XIcon,
-} from "@heroicons/react/outline";
-import logo from "../assets/gradient.PNG";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import logo from "../assets/hpe_element_rgb.svg";
+import HeaderDropdown from "./HeaderDropdown";
 
-function Header({ headerPosition }) {
+function Header({ headerPosition, color }) {
   const [state, setState] = useState(false);
   const [search, setSearch] = useState(false);
 
@@ -20,7 +18,11 @@ function Header({ headerPosition }) {
   return (
     <>
       {search && (
-        <nav className={`search-input w-full ${headerPosition ? 'fixed' : 'relative'} border-0 bg-white flex justify-start items-center text-2xl text-black py-4 z-50`}>
+        <nav
+          className={`search-input w-full ${
+            headerPosition ? "fixed" : "relative"
+          } border-0 bg-white flex justify-start items-center text-2xl text-black py-4 z-50`}
+        >
           <input
             type="search"
             placeholder="Search hpe.com"
@@ -59,7 +61,13 @@ function Header({ headerPosition }) {
         </nav>
       )}
       {!search && (
-        <nav className={`w-full ${headerPosition ? 'fixed' : 'relative'} border-0 bg-black text-white text-xs font-bold pt-4 z-50`}>
+        <nav
+          className={`w-full ${
+            headerPosition ? "fixed" : "relative"
+          } border-0 ${color} ${
+            color === "bg-black" ? "text-white" : "text-black"
+          } text-xs font-bold pt-4 z-50`}
+        >
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
             <div className="flex items-center justify-between py-3 mb-2">
               <a className="flex" href="/">
@@ -69,7 +77,7 @@ function Header({ headerPosition }) {
                   height={5}
                   alt="Hewlett Packard Enterprise"
                 />
-                <p className="text-white font-bold px-3">
+                <p className="font-bold px-3">
                   Hewlett Packard{" "}
                   <span className="font-normal">Enterprise</span>
                 </p>
@@ -90,7 +98,7 @@ function Header({ headerPosition }) {
             <div
               className={`flex-1 justify-between flex-row-reverse lg:overflow-visible lg:flex lg:h-auto ${
                 state
-                  ? "h-screen pb-20 over-flow-auto mx-2 border-b-2 border-gray-700"
+                  ? "h-screen pb-20 overflow-auto mx-2 border-b-2 border-gray-700"
                   : "hidden"
               }`}
             >
@@ -179,31 +187,59 @@ function Header({ headerPosition }) {
                   <li className="py-2">
                     <a
                       href="/"
-                      className="border-2 border-green-500 py-1 px-2 rounded-md"
+                      className={`border-2 border-green-500 py-1 px-2 rounded-md ${
+                        color === "bg-black" ? "text-white" : "text-black"
+                      }`}
                     >
                       SIGN IN
                     </a>
                   </li>
                 </ul>
               </div>
-              
+
               <div className="flex-1">
                 <ul className="justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
                   {navigations.map((item, idx) => {
                     if (idx === 0) {
-                      return <li
-                        key={idx}
-                        className="relative pt-3 pb-5 px-3 border-b-4 border-black focus:border-green-500 hover:border-green-500"
-                      >
-                        <button className="">{item.title}</button>
-                      </li>
+                      return (
+                        <div key={idx}>
+                        <li
+                          className={`relative pt-3 pb-5 px-3 border-b-4 ${
+                            color === "bg-black"
+                              ? "border-black"
+                              : "border-white"
+                          } focus:border-green-500 hover:border-green-500 active:border-green-500`}
+                        >
+                          <button
+                            className="transition duration-150 ease-in-out"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample"
+                            aria-expanded="false"
+                            aria-controls="collapseExample"
+                          >
+                            {item.title}
+                          </button>
+                          
+                        </li>
+                        <HeaderDropdown />
+                        </div>
+                      );
                     } else {
-                      return <li
-                        key={idx}
-                        className="pt-3 pb-5 px-3 border-b-4 border-black hover:border-green-500"
-                      >
-                        <a href={item.path} className="">{item.title}</a>
-                      </li>
+                      return (
+                        <li
+                          key={idx}
+                          className={`pt-3 pb-5 px-3 border-b-4 ${
+                            color === "bg-black"
+                              ? "border-black"
+                              : "border-white"
+                          } hover:border-green-500`}
+                        >
+                          <a href={item.path} className="">
+                            {item.title}
+                          </a>
+                        </li>
+                      );
                     }
                   })}
                 </ul>

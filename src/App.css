@@ -190,3 +190,48 @@
   background-size: 100% auto;
   color: transparent;
 }
+
+@media (min-width: 768px) {
+  .contact-header .contact-body {
+    background: linear-gradient(180deg,#262626 0,#4f4f4f);
+    transition: max-height .5s ease-out;
+    max-height: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-header:hover .contact-body {
+    transition: max-height .5s ease-out;
+    max-height: 274px;
+  }
+}
+
+.markdown h1 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 15px 0;
+}
+
+.markdown p {
+  padding: 5px 0;
+}
+
+.markdown a {
+  text-decoration: underline;
+}
+
+.markdown li {
+  position: relative;
+  padding: 5px 0px 5px 13px;
+}
+
+.markdown li::before {
+  background-color: #C6C9CA;
+  content: "";
+  display: block;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  width: 5px;
+}

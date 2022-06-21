@@ -13,7 +13,7 @@ import Video from '../components/Network/Video'
 
 function Network() {
   return (
-    <Layout status={false}>
+    <Layout status={false} color={"bg-black"}>
       <NetworkHeader />
       <div className='bg-black md:flex md:justify-between p-10 md:p-20 text-center md:text-left text-white'>
         <div className='w-full'>

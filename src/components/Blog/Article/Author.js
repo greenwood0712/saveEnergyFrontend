@@ -3,11 +3,11 @@ import author from '../../../assets/blog/aurthor (4).jpeg'
 
 function Author() {
   return (
-    <div className='my-5 bg-white p-10 flex'>
-        <div className='w-1/3'>
+    <div className='my-5 bg-white p-10 md:flex'>
+        <div className='md:w-1/3'>
             <img src={author} alt="author" className="rounded-full" />
         </div>
-        <div className="ml-5">
+        <div className="md:ml-5">
             <a href="https://www.hpe.com/us/en/insights/contributors/laura-mccamy.html" className="font-semibold text-xl">Laura McCamy</a>
             <p className="text-base py-1">Freelance writer | 4 publications</p>
             <p className="text-xl pt-2 font-light">

@@ -27,8 +27,8 @@ function Article() {
         </a>
       </div>
       <Navbar />
-      <div className="bg-gray-300 p-10 flex">
-        <div className="w-3/4">
+      <div className="bg-gray-300 p-10 md:flex">
+        <div className="md:w-3/4">
           <Contents />
           <Author />
           <Related />

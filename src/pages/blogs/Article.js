@@ -27,8 +27,26 @@ function Article() {
         </a>
       </div>
       <Navbar />
-      <div className="bg-gray-300 p-10 md:flex">
-        <div className="md:w-3/4">
+      <div className="bg-gray-300 px-10 md:px-20 py-10 md:flex">
+        <div className="md:w-3/4 relative">
+          <div className="absolute top-0 left-0 -ml-[30px] bg-green-500 text-white">
+            <a href="https://www.hpe.com/us/en/insights.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8 p-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={3}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                />
+              </svg>
+            </a>
+          </div>
           <Contents />
           <Author />
           <Related />

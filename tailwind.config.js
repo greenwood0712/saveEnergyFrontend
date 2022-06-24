@@ -51,6 +51,8 @@ module.exports = {
         'privacy-background' : "url('/src/assets/privacy/image.png')",
         'article-cover': "url('/src/assets/blog/image (8).jpg')",
         'rightbar-lastImage' : "url('/src/assets/blog/rightbar.jpg')",
+        'analytic-image' : "url('/src/assets/blog/analyticImage.jpg')",
+        'analytic-newletter' : "url('/src/assets/blog/rightbar.jpg')"
       }
     }
   },

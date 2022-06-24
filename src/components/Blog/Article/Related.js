@@ -14,8 +14,8 @@ function Related() {
   return (
     <div className="mt-3">
       <h1 className="uppercase py-3 font-semibold text-xl">Related</h1>
-      <div className="flex flex-wrap w-full">
-        <div className="blog-card w-full md:w-[49%] md:mr-2 my-2 cursor-pointer">
+      <div className="w-full grid gap-4 md:grid-cols-2 grid-cols-1">
+        <div className="blog-card w-full cursor-pointer">
           <a
             className="bg-white text-black relative w-full"
             href="https://www.hpe.com/us/en/insights/articles/a-data-first-strategy-simplifies-data-management-and-protection-2206.html"
@@ -52,7 +52,7 @@ function Related() {
           </a>
         </div>
 
-        <div className="blog-card w-full md:w-[49%] md:mr-2 my-2 cursor-pointer">
+        <div className="blog-card w-full cursor-pointer">
           <a
             className="bg-white text-black relative w-full"
             href="https://www.hpe.com/us/en/insights/articles/modernize-with-a-cloud-experience-everywhere-2206.html"
@@ -90,7 +90,7 @@ function Related() {
           </a>
         </div>
 
-        <div className="blog-card w-full md:w-[49%] md:mr-2 my-2 cursor-pointer">
+        <div className="blog-card w-full cursor-pointer">
           <a
             className="bg-white text-black relative w-full"
             href="https://www.hpe.com/us/en/insights/articles/a-data-first-strategy-simplifies-data-management-and-protection-2206.html"
@@ -127,7 +127,7 @@ function Related() {
           </a>
         </div>
 
-        <div className="blog-card w-full md:w-[49%] md:mr-2 my-2 cursor-pointer">
+        <div className="blog-card w-full cursor-pointer">
           <a
             className="bg-white text-black relative w-full"
             href="https://www.hpe.com/us/en/insights/articles/a-data-first-strategy-simplifies-data-management-and-protection-2206.html"

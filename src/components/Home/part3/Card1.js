@@ -4,16 +4,16 @@ import logo from "../../../assets/cloud.PNG";
 
 function Card1() {
   return (
-    <div className="w-full my-20 mx-2 px-10 bg-white relative md:w-1/4">
+    <div className="my-20 mx-10 md:mx-2 px-10 md:px-5 bg-white relative md:w-1/4">
       <div className="absolute top-0 left-0 w-full bg-yellow-400 h-40"></div>
-      <div className="flex justify-center">
+      <div className="flex justify-center w-1/2 md:w-full md:h-60">
         <img
           src={image}
-          className="transition ease-in-out delay-150 z-30 w-40 h-60 flex-auto"
+          className="transition ease-in-out delay-150 z-30 w-full h-auto"
           alt="Cloud Service"
         />
       </div>
-      <h1 className="text-xl font-bold h-20 mt-8">HPE GREENLAKE CLOUD SERVICES</h1>
+      <h1 className="text-xl font-bold md:h-20 mt-8">HPE GREENLAKE CLOUD SERVICES</h1>
       <p className="text-md card-height">
         Get the cloud experience on-prem, and always have capacity when you need
         it.

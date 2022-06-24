@@ -1,0 +1,102 @@
+[
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/a-data-first-strategy-simplifies-data-management-and-protection-2206.html",
+    "content_type": "Article",
+    "card_tester": "Best of Enterprise.nxt: With data now the life force of your business, simplifying data management is an essential step.",
+    "title": "A data-first strategy simplifies data management and protection",
+    "content": "Without data, none of this matters",
+    "author_name": "Enterprise.nxt staff",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/enterprise-dot-nxt-staff/enterprisenxt_logo.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/06/a-data-first-strategy-simplifies-data-management-and-protection/(June%2015th)%20A%20data-first%20strategy%20simplifies%20data%20management%20and%20protection.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/modernize-with-a-cloud-experience-everywhere-2206.html",
+    "content_type": "Article",
+    "card_tester": "Best of Enterprise.nxt: Modern cloud techniques like cloud-native development enable cloud advantages wherever software runs.",
+    "title": "Modernize with a cloud experience everywhere",
+    "content": "Improve flexibility, manageability, adaptability",
+    "author_name": "Larry Seltzer",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/larry-seltzer/Larry-Seltzer.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/06/modernize-with-a-cloud-experience-everywhere/Cloud%202000x1081px.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/create-connected-experiences-at-your-edge-2206.html",
+    "content_type": "Article",
+    "card_tester": "Best of Enterprise.nxt: Compute jobs often make more sense close to the endpoint rather than in the cloud.",
+    "title": "Create connected experiences at your edge",
+    "content": "The action's at the edge",
+    "author_name": "Larry Seltzer",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/larry-seltzer/Larry-Seltzer.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/06/create-connected-experiences-at-your-edge/0609_Your%20Edge%202000x1081px.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/data-deluge-how-to-get-data-management-strategy-in-sync-2102.html",
+    "content_type": "Article",
+    "card_tester": "Vast amounts of data will drive new insights and better business decisions, but only if you have a comprehensive data management plan in place.",
+    "title": "Data deluge: How to get data management strategy in sync",
+    "content": "Putting data to work",
+    "author_name": "Dan Tynan",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/dan-tynan/dan-tynan.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/03/ai-is-the-key/NXT_AI_is_the_key_2000x1081.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/answer-these-5-questions-to-fine-tune-your-digital-twin-strategy-2205.html",
+    "content_type": "Article",
+    "card_tester": "Let the business goal define how closely your twin must mirror the real world.",
+    "title": "Answer these 5 questions to fine tune your digital twin strategy",
+    "content": "Double your pleasure",
+    "author_name": "Bob Scheier",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/bob-scheier/Bob-Scheier.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/05/answer-these-5-questions-to-fine-tune-your-digital-twin-strategy/May17th_Digital_Twin%202000x1081px.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/why-the-future-of-ai-hinges-on-trust-2205.html",
+    "content_type": "Article",
+    "card_tester": "Do you trust that your data is not just secure but also accurate and complete? Valid AI processes increasingly depend on it.",
+    "title": "Why the future of AI hinges on trust",
+    "content": "Trust is about more than security",
+    "author_name": "Sunil James & Suparna Bhattacharya",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/sunil-james-and-suparna-bhattacharya/Sunil and Suparna_440x440.png.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/05/why-the-future-of-ai-hinges-on-trust/AI%20Trust%202000x1081px.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/how-the-remote-workforce-is-impacting-the-way-we-store-and-acces-2204.html",
+    "content_type": "Article",
+    "card_tester": "With data scattered across the world, WFH has companies scrambling to protect this resource.",
+    "title": "How the remote workforce is impacting the way we store and access data",
+    "content": "All your data are belong to us",
+    "author_name": "David Rand",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/david-rand/david-rand.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/04/how-the-remote-workforce-is-impacting-the-way-we-store-and-access-data/Remote%20workforce%202000x1081px.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/how-edge-to-cloud-computing-powers-smart-grids-and-smart-cities-2204.html",
+    "content_type": "Article",
+    "card_tester": "A smart city, built on a smart grid, demonstrates how different functions are best run at the edge, in the cloud, or on premises.",
+    "title": "How edge-to-cloud computing powers smart grids and smart cities",
+    "content": "Power play",
+    "author_name": "Katherine Gustafson",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/katherine-gustafson/Katherine G Headshot.png.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/04/how-edge-to-cloud-computing-powers-smart-grids-and-smart-cities/Cloudy%202000x1081.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/how-do-you-measure-the-value-of-data-2203.html",
+    "content_type": "Article",
+    "card_tester": "There's no one right way to determine if enterprise information is useful, but there are plenty of ways to try.",
+    "title": "How do you measure the value of data?",
+    "content": "Data: It's what's for dinner",
+    "author_name": "Christopher Null",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/christopher-null/Chris-Null.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2019/04/armed-with-artificial-intelligence-scientists-take-on-climate-change/featuredStory/AI-and-climate-change.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/closing-the-data-science-talent-gap-2203.html",
+    "content_type": "Article",
+    "card_tester": "Industry and universities are collaborating on programs to create a steady stream of data science and AI/ML professionals in light of the ongoing skills crunch.",
+    "title": "Closing the data science talent gap",
+    "content": "Building new data scientists",
+    "author_name": "Beth Stackpole",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/beth-stackpole/beth-Stackpole.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/03/closing-the-data-science-talent-gap/NXT_closing_the_data_science_talent_gap_2000x1081.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  }
+]

@@ -30,7 +30,7 @@ function SocialMedia() {
         <div className="flex justify-center items-center bg-red-400 hover:opacity-70 md:w-[30px] w-full h-[30px] md:h-auto">
             <img className="h-full" src={rss} alt="rss" />
         </div>
-        <div className="flex justify-center items-center bg-green-300 hover:opacity-70 md:w-[30px] w-full h-[30px] md:h-auto">
+        <div className="flex justify-center items-center bg-yellow-300 hover:opacity-70 md:w-[30px] w-full h-[30px] md:h-auto">
             <img className="h-full" src={linkedin} alt="linkedin" />
         </div>
         <div className="flex justify-center items-center bg-blue-400 hover:opacity-70 md:w-[30px] w-full h-[30px] md:h-auto">

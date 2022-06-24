@@ -5,7 +5,6 @@ function Navbar() {
   const [state, setState] = useState(false);
   const [search, setSearch] = useState(false);
 
-  console.log(search)
   const navigators = [
     { title: "ALL", path: "https://www.hpe.com/us/en/insights.html" },
     { title: "AI", path: "https://www.hpe.com/us/en/insights.html/topic/ai" },

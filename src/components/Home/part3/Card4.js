@@ -4,16 +4,16 @@ import logo from "../../../assets/storage.PNG";
 
 function Card4() {
   return (
-    <div className="md:w-1/4 my-20 mx-2 px-5 bg-white relative">
+    <div className="md:w-1/4 my-20 mx-10 md:mx-2 px-10 md:px-5 bg-white relative">
       <div className="absolute top-0 left-0 w-full bg-purple-700 h-40"></div>
-      <div className="flex justify-center">
+      <div className="flex justify-center w-1/2 md:w-full md:h-60">
         <img
           src={image}
-          className="transition ease-in-out delay-150 w-40 h-60 z-30 flex-auto"
+          className="transition ease-in-out delay-150 z-30"
           alt="Cloud Service"
         />
       </div>
-      <h1 className="text-xl font-bold h-20 mt-8">HPE NIMBLE STORAGE</h1>
+      <h1 className="text-xl font-bold md:h-20 mt-8">HPE NIMBLE STORAGE</h1>
       <p className="text-md card-height">
         Unlock the full potential of hybrid cloud with intelligent,
         self-managing storage built to help you unlock the full potential of

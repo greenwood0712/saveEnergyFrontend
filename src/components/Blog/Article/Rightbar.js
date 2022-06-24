@@ -6,7 +6,7 @@ import image2 from "../../../assets/blog/image (6).jpg";
 function Rightbar() {
   return (
     <div className="md:w-1/4 md:ml-5">
-      <div className="bg-white p-5 mb-5 flex flex-col">
+      <div className="bg-white p-5 md:mt-0 mt-5 mb-5 flex flex-col">
         <a href="https://www.hpe.com/us/en/insights/contributors/laura-mccamy.html">
           <img className="rounded-full" src={author} alt="author" />
         </a>

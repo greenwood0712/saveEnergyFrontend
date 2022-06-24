@@ -16,6 +16,12 @@
   height: 96px;
 }
 
+@media (max-width: 767px) {
+  .card-height {
+    height: auto;
+  }
+}
+
 .orange-color {
   background-color: #FF8300;
 }
@@ -48,7 +54,11 @@
 }
 
 .search-input {
-  animation: moved 1s; 
+  animation: moved 1s;
+}
+
+.search-input:focus {
+  --tw-ring-color: transparent;
 }
 
 @keyframes moved {
@@ -191,6 +201,11 @@
   color: transparent;
 }
 
+.footer {
+  background-attachment: fixed;
+  background-position: center;
+}
+
 @media (min-width: 768px) {
   .contact-header .contact-body {
     background: linear-gradient(180deg,#262626 0,#4f4f4f);
@@ -275,4 +290,16 @@
 .blog-card:hover .indicator {
   opacity: 1;
   transition: opacity .125s linear;
+}
+
+.newsletter input::placeholder {
+  color: #aaa;
+}
+
+.newsletter input:focus, select:focus {
+  --tw-ring-color: transparent;
+}
+
+.newsletter option {
+  color: black;
 }

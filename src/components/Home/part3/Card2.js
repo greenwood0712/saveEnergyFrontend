@@ -4,16 +4,16 @@ import logo from "../../../assets/server.PNG";
 
 function Card2() {
   return (
-    <div className="w-full my-20 mx-2 px-10 bg-white relative md:w-1/4">
+    <div className="my-20 mx-10 md:mx-2 px-10 md:px-5 bg-white relative md:w-1/4">
       <div className="absolute top-0 left-0 w-full bg-gray-300 h-40"></div>
-      <div className="flex justify-center">
+      <div className="flex justify-center w-1/2 md:w-full md:h-60">
         <img
           src={image}
-          className="transition ease-in-out delay-150 w-40 h-60 z-30 flex-auto"
+          className="transition ease-in-out delay-150 w-full h-auto z-30"
           alt="Cloud Service"
         />
       </div>
-      <h1 className="text-xl font-bold h-20 mt-8">HPE COMPUTE SYSTEMS</h1>
+      <h1 className="text-xl font-bold md:h-20 mt-8">HPE COMPUTE SYSTEMS</h1>
       <p className="text-md card-height">
         Accelerate your IT modernization with intelligent, workload-optimized
         mainstream compute systems, available as a service.

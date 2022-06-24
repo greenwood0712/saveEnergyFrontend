@@ -1,0 +1,102 @@
+[
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/the-key-to-understanding-data-seeing-it-properly-2203.html",
+    "content_type": "Article",
+    "card_tester": "Why data visualization is the next frontier for data modernization.",
+    "title": "The key to understanding data? Seeing it properly",
+    "content": "Picture this …",
+    "author_name": "Enterprise.nxt staff",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/enterprise-dot-nxt-staff/enterprisenxt_logo.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/03/the-key-to-understanding-data--seeing-it-properly/NXT_the_key_to_understanding_data_2000x1081.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/3-ways-a-data-fabric-enables-a-data-first-approach-2203.html",
+    "content_type": "Article",
+    "card_tester": "A well-engineered modern data fabric allows DevOps and other teams to access data in the way they prefer.",
+    "title": "3 ways a data fabric enables a data-first approach",
+    "content": "Data infrastructure done right",
+    "author_name": "Ted Dunning & Ellen Friedman",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/ted-dunning-and-ellen-friedman/Ted and Ellen.png.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/03/3-ways-a-data-fabric-enables-a-data-first-approach/NXT_3_ways_a_data_fabric_2000x1081.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/ai-is-the-key-to-unlock-insights-from-unstructured-data-2203.html",
+    "content_type": "Article",
+    "card_tester": "As information becomes increasingly fluid, new approaches are needed to understand and make use of it.",
+    "title": "AI is the key to unlock insights from unstructured data",
+    "content": "Rethinking traditional analytic models",
+    "author_name": "Sreenivas Rangan Sukumar",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/sreenivas-rangan-sukumar---mie-woodacre/Rangan300.png.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/03/ai-is-the-key/NXT_AI_is_the_key_2000x1081.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/getting-the-most-from-your-data-driven-transformation-2109.html",
+    "content_type": "Article",
+    "card_tester": "Here are best practices for embracing data in the modern enterprise.",
+    "title": "Getting the most from your data-driven transformation: 10 key principles",
+    "content": "Develop a data strategy",
+    "author_name": " Janice M. Zdankus & Anthony Delli Colli",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/janice-m--zdankus---anthony-delli-colli/Zdankus_Dellicolli.png.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2022/03/getting-the-most-from-your-data/NXT_Getting_the_most_2000x1081.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/lost-in-transition-why-hybrid-cloud-systems-need-aiops-2112.html",
+    "content_type": "Article",
+    "card_tester": "Modern hybrid cloud systems will only get more complex, too complex for IT to tune or solve problems. But AI can do it.",
+    "title": "Lost in transition: Why hybrid cloud systems need AIOps",
+    "content": "Conquer complexity",
+    "author_name": "Lance Helmke",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/lance-helmke/Lance Helmke.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2021/12/lost-in-transition/Lost%20in%20translation.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/exascale-computing-what-it-is-and-what-it-could-be-2110.html",
+    "content_type": "Article",
+    "card_tester": "Supercomputers keep bringing the previously impossible within our reach.",
+    "title": "Exascale computing: What it is and what it could be",
+    "content": "1 quintillion calculations per second",
+    "author_name": "Sreenivas Rangan Sukumar & Mike Woodacre",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/sreenivas-rangan-sukumar---mie-woodacre/Duo Headshot .jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2021/10/exascale-computing/Exascale%20Article%20Hero%20Image.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/investing-in-people-is-key-to-successful-transformation-2109.html",
+    "content_type": "Article",
+    "card_tester": "These four people-related factors will determine whether your transformation progresses or stalls.",
+    "title": "Investing in people is key to successful transformation",
+    "content": "Good people make good transformation",
+    "author_name": "Anke Hirning",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/anke-hirning/Anke-Hirning-.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2021/09/investing-in-people/GettyImages-1166492679_Small.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/transforming-healthcare-at-texas-children-s-hospital-2109.html",
+    "content_type": "Article",
+    "card_tester": "The largest pediatric hospital in the U.S. is using the power of the cloud to innovate and improve patient care.",
+    "title": "Transforming healthcare at Texas Children's Hospital",
+    "content": "Power of the cloud",
+    "author_name": "Gordon Groschl",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/gordon-groschl/Gordon_Groschl.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2021/09/transforming-healthcare-at-texas-children's-hospital/GettyImages-1266493763.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/transforming-energy-at-suncor-2109.html",
+    "content_type": "Article",
+    "card_tester": "Canada's largest integrated energy company is using cloud to reinvent every aspect of its business.",
+    "title": "Transforming energy at Suncor",
+    "content": "'Canada's gas station'",
+    "author_name": "Tim LeBlanc",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/tim-leblanc/Tim_Leblanc.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2021/09/transforming-energy-at-suncor/Transforming_energy_at_Suncor.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  },
+  {
+    "path": "https://www.hpe.com/us/en/insights/articles/manage-your-edge-data-before-it-becomes-a-problem-2108.html",
+    "content_type": "Article",
+    "card_tester": "Here's how to minimize data backhaul, and why you want to do it.",
+    "title": "Manage your edge data before it becomes a problem",
+    "content": "You know what you need",
+    "author_name": "Pam Baker",
+    "authorImage": "https://www.hpe.com/content/dam/hpe/insights/contributors/pam-baker/Pam-Baker.jpg.hpetransform/bounded-resize:width=30/image.orig",
+    "image": "https://www.hpe.com/content/dam/hpe/insights/articles/2021/08/manage-your-edge-data-before-it-becomes-a-problem/A_data_challenge_analyze_data_from_the_edge.jpg.hpetransform/bounded-resize:width=575/image.orig"
+  }
+]

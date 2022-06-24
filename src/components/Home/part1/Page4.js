@@ -2,13 +2,13 @@ import React from 'react'
 
 function Page4() {
   return (
-    <div className="md:absolute text-white top-40 m-10 md:m-20">
-      <h1 className="text-5xl font-bold md:w-1/2">TWO NEW BREAKTHROUGHS FOR SCALING AI APPLICATIONS</h1>
-      <p className="text-2xl py-5 md:w-1/2">
+    <div className="absolute text-white top-40 m-10 md:m-20">
+      <h1 className="text-3xl md:text-5xl font-bold md:w-1/2">TWO NEW BREAKTHROUGHS FOR SCALING AI APPLICATIONS</h1>
+      <p className="text-xl md:text-2xl py-5 md:w-1/2">
         Speed data-first modernization from edge to cloud and scale AI to industrial sized, global applications.
       </p>
       <div className="md:flex">
-        <button className="arrow-animation flex text-lg font-semibold w-80 justify-center items-center bg-green-500 outline-none outline-offset-0 hover:outline-2 hover:outline-green-500 rounded py-3">
+        <button className="arrow-animation flex text-lg font-semibold w-full md:w-80 justify-center items-center bg-green-500 outline-none outline-offset-0 hover:outline-2 hover:outline-green-500 rounded py-3">
           Introducing HPE Swarm Learning&nbsp;&nbsp;
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@ function Page4() {
             />
           </svg>
         </button>
-        <button className="arrow-animation flex text-lg font-semibold w-80 md:w-1/4 justify-center items-center bg-green-500 outline-none outline-offset-0 hover:outline-2 hover:outline-green-500 rounded py-3 md:mx-3">
+        <button className="arrow-animation flex text-lg font-semibold w-full md:w-80 md:w-1/4 justify-center items-center bg-green-500 outline-none outline-offset-0 hover:outline-2 hover:outline-green-500 rounded py-3 my-5 md:my-0 md:mx-3">
           Introducing HPE Machine Learning Development System
           <svg
             xmlns="http://www.w3.org/2000/svg"

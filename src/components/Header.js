@@ -1,11 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import logo from "../assets/hpe_element_rgb.svg";
 import HeaderDropdown from "./HeaderDropdown";
 
-function Header({ headerPosition, color }) {
+function Header({ headerPosition, bgcolor }) {
   const [state, setState] = useState(false);
   const [search, setSearch] = useState(false);
+  const [color, setColor] = useState(bgcolor);
+  useEffect(() => {
+    if (headerPosition) {
+      setColor("bg-transparent hover:bg-black");
+    }
+  }, []);
 
   const navigations = [
     { title: "HPE GreenLake", path: "#" },
@@ -14,6 +20,17 @@ function Header({ headerPosition, color }) {
     { title: "Contact", path: "https://www.hpe.com/us/en/contact-hpe.html" },
     { title: "More...", path: "#" },
   ];
+
+  if (headerPosition === true) {
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+      if (currentScroll <= 0) {        
+        setColor("bg-transparent hover:bg-black");
+      } else {
+        setColor("bg-black");
+      }
+    });
+  }
 
   return (
     <>
@@ -62,10 +79,12 @@ function Header({ headerPosition, color }) {
       )}
       {!search && (
         <nav
-          className={`w-full ${
+          className={`header w-full ${
             headerPosition ? "fixed" : "relative"
           } border-0 ${color} ${
-            color === "bg-black" ? "text-white" : "text-black"
+            color === "bg-black" || color === "bg-transparent hover:bg-black"
+              ? "text-white"
+              : "text-black"
           } text-xs font-bold pt-4 z-50`}
         >
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
@@ -98,14 +117,12 @@ function Header({ headerPosition, color }) {
             <div
               className={`flex-1 justify-between flex-row-reverse lg:overflow-visible lg:flex lg:h-auto ${
                 state
-                  ? "h-screen pb-20 overflow-auto mx-2 border-b-2 border-gray-700"
+                  ? "h-screen pb-20 md:pb-0 overflow-auto mx-2 border-b-2 border-gray-700"
                   : "hidden"
               }`}
             >
               <div>
-                <ul
-                  className="flex justify-around space-x-6"
-                >
+                <ul className="flex justify-around space-x-6">
                   <li className="py-1">
                     <button
                       onClick={() => {
@@ -187,7 +204,10 @@ function Header({ headerPosition, color }) {
                     <a
                       href="/"
                       className={`border-2 border-green-500 py-1 px-2 rounded-md ${
-                        color === "bg-black" ? "text-white" : "text-black"
+                        color === "bg-black" ||
+                        color === "bg-transparent hover:bg-black"
+                          ? "text-white"
+                          : "text-black"
                       }`}
                     >
                       SIGN IN
@@ -201,27 +221,23 @@ function Header({ headerPosition, color }) {
                   {navigations.map((item, idx) => {
                     if (idx === 0) {
                       return (
-                        <div key={idx}>
-                        <li
-                          className={`relative pt-3 pb-5 px-3 border-b-4 ${
-                            color === "bg-black"
-                              ? "border-black"
-                              : "border-white"
-                          } focus:border-green-500 hover:border-green-500 active:border-green-500`}
-                        >
+                        <div key={idx} className="dropdown relative" id="dropdown">
                           <button
-                            className="transition duration-150 ease-in-out"
+                            className={`dropdown-toggle pt-3 pb-5 px-3 border-b-4 transition duration-150 ease-in-out ${
+                              color === "bg-black"
+                                ? "border-black"
+                                : color === "bg-transparent hover:bg-black"
+                                ? "border-transparent"
+                                : "border-white"
+                            } focus:border-green-500 hover:border-green-500 active:border-green-500`}
                             type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample"
+                            id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown"
                             aria-expanded="false"
-                            aria-controls="collapseExample"
                           >
                             {item.title}
                           </button>
-                          
-                        </li>
-                        <HeaderDropdown />
+                          <HeaderDropdown />
                         </div>
                       );
                     } else {
@@ -231,6 +247,8 @@ function Header({ headerPosition, color }) {
                           className={`pt-3 pb-5 px-3 border-b-4 ${
                             color === "bg-black"
                               ? "border-black"
+                              : color === "bg-transparent hover:bg-black"
+                              ? "border-transparent"
                               : "border-white"
                           } hover:border-green-500`}
                         >

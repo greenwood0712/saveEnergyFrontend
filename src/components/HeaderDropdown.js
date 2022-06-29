@@ -3,15 +3,15 @@ import React from "react";
 function HeaderDropdown() {
   return (
     <div
-      className="collapse md:absolute top-20 left-20 flex justify-between text-black bg-white text-base p-5 list-none text-left rounded-md shadow-2xl border-none"
-      id="collapseExample"
+      className="dropdown-menu hidden md:absolute left-20 top-20 flex justify-between text-black bg-white text-base p-5 list-none text-left rounded-md shadow-2xl border-none"
+      aria-labelledby="dropdownMenuButton1"
     >
       <div className="md:flex justify-between text-black bg-transparent">
         <div className="dropdown-item w-full md:w-[200px] px-5 flex flex-col">
           <h1 className="text-base text-gray-300 w-full py-3 border-b-2 border-gray-300">
             EDGE TO CLOUD
           </h1>
-          <h1 className="font-bold drop-item text-xl py-5">HPE GreenLake</h1>
+          <h1 className="font-bold text-xl py-5">HPE GreenLake</h1>
           <p className="font-normal">
             Accelerate your data-first modernization with the HPE GreenLake
             edge-to-cloud platform, which brings the cloud to wherever your apps
@@ -28,7 +28,7 @@ function HeaderDropdown() {
           <h1 className="text-base text-gray-300 w-full py-3 border-b-2 border-gray-300">
             CLOUD ADOPTION
           </h1>
-          <h1 className="font-bold drop-item text-xl py-5">
+          <h1 className="font-bold text-xl py-5">
             HPE GreenLake Edge-to-Cloud Adoption Framework
           </h1>
           <p className="font-normal">

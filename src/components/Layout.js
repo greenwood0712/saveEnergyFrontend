@@ -6,7 +6,7 @@ import Header from './Header'
 function Layout({ children, status, color }) {
   return (
     <Fragment>
-      <Header headerPosition={status} color={color} />
+      <Header headerPosition={status} bgcolor={color} />
       {children}
       <Footer />
     </Fragment>

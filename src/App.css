@@ -303,3 +303,7 @@
 .newsletter option {
   color: black;
 }
+
+.dropdown-menu {
+  inset: 0px auto auto -200px;
+}

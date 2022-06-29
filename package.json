@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "tailwind build ./src/index.css -c ./tailwind.config.js -o ./src/tailwind.css",
+    "build": "tailwind build ./src/index.css -c ./tailwind.config.js -o ./public/build/tailwind.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
